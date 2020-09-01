@@ -1,0 +1,516 @@
+/* 採用データ・採用センター
+-----------------------*/
+
+#data #contents-wrap{
+	padding-bottom: 50px;
+}
+
+#data #contents-wrap h1{
+	border-bottom: 1px solid #dd4031;
+	margin-bottom: 50px;
+}
+
+#data #contents-wrap .left{
+	float: left;
+	width: 483px;
+}
+
+#data #contents-wrap .right{
+	float: right;
+	width: 483px;
+}
+
+#data #contents-wrap .box{
+	background-color: #fbfbf9;
+	margin-bottom: 28px;
+}
+
+#data #contents-wrap h2{
+	position: relative;
+	background-color: #e0d4c7;
+	line-height: 50px;
+	padding: 0 44px;
+	height: 50px;
+	font-weight: bold;
+}
+
+#data #contents-wrap h2:after{
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	background: url('/recruit/recruit/img/qa/h3-line.png');
+}
+
+#data #contents-wrap p{
+	padding: 20px 40px;
+}
+
+#data #contents-wrap .indent{
+	display: block;
+	padding-left: 1em;
+}
+
+#data #contents-wrap .inner-left{
+	float: left;
+	width: 50%;
+}
+
+#data #contents-wrap .inner-right{
+	float: right;
+	width: 50%;
+}
+
+#data #contents-wrap #gmap{
+	width: 920px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+/*--------------------------------------
+Smartphone 
+----------------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+#data #contents-wrap .left,
+#data #contents-wrap .right,
+#data #contents-wrap .inner-left,
+#data #contents-wrap .inner-right{
+	float: none;
+	width: 100%;
+}
+
+#data #contents-wrap .inner-left p{
+	padding-bottom: 1.5rem;
+}
+#data #contents-wrap .inner-right p{
+	padding-top: 0;
+}
+
+#data #contents-wrap h2{
+	padding: 0 20px;
+}
+
+#data #contents-wrap p{
+	padding: 20px;
+}
+
+#data #contents-wrap #gmap{
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+}
+
+}
+
+
+
+/* Q&A
+-----------------------*/
+
+#qa #contents-wrap{
+	padding-bottom:50px;
+}
+
+#qa #contents-wrap h1{
+	border-bottom: 1px solid #dd4031;
+	margin-bottom: 50px;
+}
+
+#qa h2{
+	background-color: #dd4031;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 42px;
+	padding: 0 24px;
+	margin-bottom: 34px;
+}
+
+#qa h3{
+	background-color: #e0d4c7;
+	line-height: 60px;
+	position: relative;
+	padding: 0 40px;
+	font-weight: bold;
+	position: relative;
+	font-size: 16px;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
+#qa h3:after{
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	background: url('/recruit/recruit/img/qa/h3-line.png');
+}
+
+#qa h3 i{
+	background: url('/recruit/recruit/img/qa/faq-open.png') no-repeat 0 0;
+	position: absolute;
+	display: block;
+	width: 38px;
+	height: 38px;
+	top: 50%;
+	margin-top: -19px;
+	right: 12px;
+}
+
+#qa h3.open i{
+	background-position: 0 -38px;
+}
+
+
+#qa #contents-wrap p{
+	display: none;
+	background-color: #FBFBF9;
+	padding: 20px 40px;
+	text-indent: -2em;
+	padding-left: 70px;
+}
+
+
+/*--------------------------------------
+Smartphone 
+----------------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+#qa #contents-wrap h1{
+	margin-bottom: 20px;
+}
+
+#qa h2{
+	font-size: 1.3rem;
+	margin-bottom: 20px;
+}
+
+#qa h3{
+	font-size: 1.1rem;
+	line-height: 130%;
+	padding: 16px 60px 16px 10px;
+}
+
+#qa #contents-wrap p{
+	padding: 10px 10px 10px 37px;
+	
+}
+
+}
+
+
+
+/* 説明会・選考情報
+-----------------------*/
+
+#briefing #contents-wrap{
+	padding-bottom: 50px;
+}
+
+#briefing #contents-wrap h1{
+	margin-bottom: 50px;
+}
+
+
+#briefing #contents-title{
+	text-align: center;
+	margin-bottom: 37px;
+}
+
+#briefing #voice{
+	text-align: center;
+}
+
+#briefing .section-wrap{
+	background: url('/recruit/recruit/img/briefing/section-bg.png');
+	padding: 14px;
+	width: 900px;
+	margin: 12px auto;
+}
+
+#briefing .section-inner{
+	background-color: #f5eee9;
+	padding: 35px 40px 30px;
+	position: relative;
+}
+
+#briefing .section-wrap h2{
+	text-align: center;
+	background-color: #e43420;
+	border: 5px solid #fff;
+	font-weight: bold;
+	line-height: 70px;
+	font-size: 30px;
+	color: #fff;
+}
+
+#briefing .section-wrap .text1{
+	width: 590px;
+	margin-bottom: 30px;
+}
+
+#briefing .section-wrap .manzoku{
+	position: absolute;
+	right: 58px;
+	top: -45px;
+}
+
+#briefing .section-wrap .photo{
+	position: absolute;
+	right: 20px;
+	top: 120px;
+}
+
+#briefing .point h3{
+	font-weight: bold;
+	color: #d70c25;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+#briefing .point h3 + p{
+	margin: 16px 0;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#briefing .kikan{
+	text-align: center;
+	font-size: 20px;
+	background: url('/recruit/recruit/img/briefing/centerline.png') no-repeat left center;
+	border-left: 4px solid #000;
+	border-right: 4px solid #000;
+	margin: 28px 0;
+	height: 54px;
+	line-height: 54px;
+}
+
+#briefing .kikan span{
+	background-color: #f5eee9;
+	padding: 10px;
+	font-weight: bold;
+}
+
+#briefing #step ul{
+	margin-bottom: 40px;
+	display: table;
+}
+
+#briefing #step li{
+	display: table-cell;
+	padding-right: 4px;
+}
+
+#briefing #step li.last{
+	padding-right: 0;
+}
+
+#briefing #step-entry{
+	display: table;
+	width: 100%;
+	background-color: #fff;
+	padding: 20px 0;
+}
+
+#briefing #step-entry h4{
+	width: 100%;
+	font-size: 16px;
+	line-height: 34px;
+	font-weight: bold;
+	text-align: center;
+	background: url('../img/entry-bg.png');
+	margin-bottom: 15px;
+	color: #000;
+}
+
+
+#briefing #step-entry .left{
+	display: table-cell;
+	background-color: #fff;
+	width: 380px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	padding: 10px 20px;
+	border-right: 1px solid #aeaeae;
+}
+
+#briefing #step-entry .left a{
+	display: block;
+	background: url('/recruit/recruit/img/briefing/mypage.png') no-repeat 0 0;
+	white-space: nowrap;
+	text-indent: 100%;
+	overflow: hidden;
+	width: 148px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+#briefing #step-entry .left a:hover{
+	background-position: 0 -60px;
+}
+
+#briefing #step-entry .right{
+	display: table-cell;
+	background-color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	color: #e43420;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+
+#briefing #step-entry .right ul{
+	display: inline;
+}
+
+#briefing #step-entry .right li{
+	border: 1px solid #000;
+	float: none;
+	display: inline-block;
+	line-height: 0;
+	width:138px;
+	padding: 4px 0;
+}
+
+#briefing #step-entry .right li img{
+	height: 48px;
+}
+
+#briefing #step ul.sp{
+	display: none;
+}
+/*--------------------------------------
+Smartphone 
+----------------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+#briefing .section-wrap{
+	width: 100%;
+	padding: 8px;
+}
+
+#briefing .section-inner{
+	padding: 20px;
+}
+
+#briefing .section-wrap .left{
+	padding-right: 10px;
+}
+
+#briefing .section-wrap .left p{
+	width: auto;
+}
+
+#briefing .section-wrap .manzoku{
+	width: 30%;
+	max-width: 133px;
+	float: right;
+	position: static;
+	margin-left: 20px;
+}
+
+#briefing .section-wrap .photo{
+	position: static;
+	text-align: center;
+}
+
+#briefing .point h3{
+	font-size: 1.1rem;
+}
+
+#briefing .point h3 + p{
+	font-size: 0.9rem;
+}
+
+#briefing .kikan span{
+	font-size: 1rem;
+}
+
+#briefing #step ul.sp{
+	display: block;
+	margin-bottom: 20px;
+}
+
+#briefing #step li{
+	position: relative;
+	display: block;
+	padding: 10px;
+	background-color: #FFE400;
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#briefing #step li span{
+	display: block;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+
+#briefing #step li:after{
+	content: "";
+	background: url('/recruit/recruit/img/briefing/arrow.png') no-repeat 0 0;
+	display: block;
+	width: 16px;
+	height: 14px;
+	position: absolute;
+	bottom: -18px;
+	left: 50%;
+	margin-left: -8px;
+}
+
+#briefing #step li.last{
+	margin-bottom: 0;
+}
+
+#briefing #step li.last:after{
+	background: none;
+	bottom: 0;
+}
+
+#briefing #step-entry{
+	display: block;
+	height: auto;
+	padding: 0;
+}
+
+#briefing #step-entry .left{
+	display: block;
+	width: 100%;
+	padding: 16px 10px;
+	border: none;
+}
+
+#briefing #step-entry .left a{
+	font-size: 1rem;
+}
+
+#briefing #step-entry .right{
+	display: block;
+	width: 100%;
+	padding: 16px 10px;
+	font-size: 1rem;
+}
+
+#briefing #step-entry .right li{
+	margin-bottom: 10px;
+}
+
+
+
+
+}
+

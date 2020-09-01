@@ -1,0 +1,741 @@
+/* MOVIE
+-----------------------*/
+
+#movie #contents-wrap{
+	padding-bottom: 50px;
+}
+
+#movie #contents-wrap h1{
+	border-bottom: 1px solid #dd4031;
+}
+
+#movie h2{
+	border: 5px solid #dd4031;
+	line-height: 100%;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 22px 36px;
+	margin: 50px 0 20px;
+}
+
+#movie .movies .box{
+	width: 322px;
+	display: block;
+	text-align: center;
+	padding: 10px;
+	background-color: #e3eaef;
+	float: left;
+	margin-right: 17px;
+	color: #333;
+}
+
+#movie .movies .box:hover{
+	color: #555;
+	text-decoration: none;
+}
+
+#movie .movies .box.last{
+	margin-right: 0;
+}
+
+#movie .movies .box .vol{
+	color: #dd4031;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#movie .movies .box h3{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#movie .movies .box:hover img{
+	filter: alpha(opacity=75);
+	-moz-opacity:0.75;
+	opacity:0.75;
+}
+
+#movie #youtube{
+	position: relative;
+	width: 750px;
+	height: 422px;
+	float: left;
+	background-color: #000;
+}
+
+#movie #youtube #loading{
+	position: absolute;
+	z-index: 5;
+	left: 50%;
+	top: 50%;
+	margin-left: -27px;
+	margin-top: -27px;
+	width: 54px;
+	height: 55px;
+}
+
+#movie #youtube iframe{
+	position: relative;
+	z-index: 10;
+}
+
+
+#movie #vols{
+	width: 240px;
+	float: right;
+}
+
+#movie #movie-title{
+	position: relative;
+}
+
+#movie #movie-title h2{
+	padding-left: 22px;
+}
+
+#movie #movie-title h2 span{
+	font-weight: bold;
+}
+
+#movie #movie-title a{
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	background-color: #dd4031;
+	color: #fff;
+	background: #dd4031 url('/recruit/work/img/movie/arrow.png') no-repeat right 12px center;
+	line-height: 78px;
+	padding: 0 52px 0 24px
+}
+
+#movie #movie-title a:hover{
+	text-decoration: none;
+	background-color: #ff5747;
+}
+
+
+#movie #vols.movies .box.hide{
+	display: none;
+}
+
+#movie #vols.movies .box{
+	width: 240px;
+	float: none;
+	margin: 0 0 17px 0;
+	padding: 5px;
+	border-right: 2.5px solid #fff;
+	border-left: 2.5px solid #fff;
+}
+
+#movie #vols.movies .box .vol{
+	font-size: 22px;
+}
+
+#movie #vols.movies .box h3{
+	font-size: 13px;
+}
+
+#movie #profile{
+	background-color: #e3eaef;
+}
+
+#movie #profile{
+	background-color: #e3eaef;
+	padding: 10px 5px;
+	margin-top: 20px;
+}
+
+#movie #profile h4{
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+#movie #profile #profile-boxs{
+	display: table;
+	width: 100%;
+}
+
+#movie #profile .box{
+	display: table-cell;
+	width: 33%;
+	background-color: #fff;
+	width: 320px;
+	margin: 0 2.5px;
+	padding: 12px;
+	border-left: 2.5px solid #e3eaef;
+	border-right: 2.5px solid #e3eaef;
+	vertical-align: top;
+}
+
+
+#movie #profile .box .left{
+	display: table-cell;
+	width: 96px;
+	vertical-align: top;
+	line-height: 0;
+}
+
+#movie #profile .box .right{
+	display: table-cell;
+	vertical-align: top;
+	padding-left: 14px;
+}
+
+#movie #profile .box .right .name{
+	font-size: 14px;
+	font-weight: bold;
+	color: #17457f;
+}
+
+#movie #profile .box .right .title{
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #e3eaef;
+	padding: 6px;
+}
+
+#movie #profile .box .right p{
+	font-size: 12px;
+	padding: 6px 0;
+}
+
+/*--------------------------------------
+Smartphone 
+----------------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+#movie #contents-wrap{
+	padding-bottom: 20px;
+}
+
+#movie h2{
+	margin: 20px 0;
+	padding: 10px 0;
+	font-size: 1.2rem;
+	border: none;
+	border-bottom: 5px solid #dd4031;
+}
+
+#movie .movies .box{
+	float: none;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#movie .movies .box .vol{
+	font-size: 0.8rem;
+}
+
+
+#movie .movies .box h3{
+	font-size: 1rem;
+}
+
+#movie #movie-title h2{
+	padding-left: 0;
+	line-height: 130%;
+}
+
+#movie #movie-title a{
+	display: none;
+}
+
+#movie #movie-title h2 span{
+	font-size: 1.2rem;
+}
+
+#movie #youtube{
+	float: none;
+	width: 100%;
+	height: auto;
+}
+
+#movie #youtube iframe{
+	width: 100%;
+}
+
+
+#movie #vols{
+	width: 100%;
+	float: none;
+	display: table;
+	margin: 12px 0;
+	table-layout: fixed;
+}
+
+#movie #vols.movies .box{
+	display: table-cell;
+	width: 50%;
+}
+
+#movie #vols.movies .box h3{
+	font-size: 0.6rem;
+}
+
+#movie #vols.movies .box .vol{
+	font-size: 1rem;
+}
+
+#movie #profile{
+	padding: 10px 20px;
+}
+
+#movie #profile #profile-boxs{
+	display: block;
+}
+
+#movie #profile .box{
+	display: block;
+	border: none;
+	width: 100%;
+	margin: 0 0 10px;
+}
+
+#movie .movie-link{
+	text-align: center;
+	margin-top: 30px;
+}
+
+#movie .movie-link a{
+	display: inline-block;
+	background-color: #dd4031;
+	color: #fff;
+	background: #dd4031 url('/recruit/work/img/movie/arrow.png') no-repeat right 12px center;
+	line-height: 50px;
+	padding: 0 50px 0 24px
+}
+
+#movie .movie-link a:hover{
+	text-decoration: none;
+	background-color: #ff5747;
+}
+
+
+
+}
+
+
+
+/* ONE DAY
+-----------------------*/
+
+#oneday #contents-wrap{
+	padding-bottom: 50px;
+}
+
+#oneday #contents-wrap h1{
+	border-bottom: 1px solid #dd4031;
+	margin-bottom: 70px;
+}
+
+#oneday #tab a{
+	position: relative;
+	display: inline-block;
+	width: 500px;
+	float: left;
+	line-height: 0;
+}
+
+#oneday #tab a .arrow{
+	position: absolute;
+	left: 50%;
+	margin-left: -21px;
+	bottom: -22px;
+}
+
+#oneday .contents-wrap{
+	padding: 56px;
+	margin-top: -22px;
+}
+
+#oneday #kitamura{
+	background-color: #f0eae4;
+}
+
+#oneday #mario{
+	background-color: #f6e7e7;
+}
+
+#oneday h2{
+	display: none;
+}
+
+#oneday .section{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed #e03e3e;
+}
+
+#oneday .section.last{
+	border-bottom: none;
+}
+
+
+#oneday h3{
+	width: 307px;
+	height: 265px;
+}
+
+#oneday h3.long{
+	height: 448px;
+}
+
+#oneday h3.middle{
+	height: 398px;
+}
+
+
+#oneday h3 span{
+	display: block;
+	width: 100%;
+	height: 58px;
+	line-height: 58px;
+	background-image: url('/recruit/work/img/oneday/clock.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-size: 21px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+#oneday #mario-sec1 h3{
+	height: 58px;
+	margin-bottom: 10px;
+}
+
+#oneday #mario-sec1 .left{
+	float: left;
+    width: 400px;
+}
+
+#oneday #mario-sec1 h3{
+	float: none;
+	width: 100%;
+}
+
+#oneday #mario-sec1 h3 p{
+	padding: 1em 0;
+}
+
+#oneday #mario-sec1 .box{
+    width: 456px;
+}
+
+#oneday #mario-sec1 .box .point{
+	margin-top: 43px;
+}
+
+#oneday .img-left h3{
+	float: left;
+}
+
+#oneday .img-right h3{
+	float: right;
+}
+
+#oneday .img-left .box{
+	float: right;
+	width: 550px;
+}
+
+#oneday .img-right .box{
+	float: left;
+	width: 550px;
+}
+
+#oneday #kitamura .img-left h3{
+	background-color: #b1906a;
+}
+#oneday #kitamura .img-right h3{
+	background-color: #849d4e;
+}
+#oneday #mario .img-left h3{
+	background-color: #db3b68;
+}
+#oneday #mario .img-right h3{
+	background-color: #3b3bdb;
+}
+
+#oneday .box .point{
+	position: relative;
+	margin-top: 60px;
+	background: url('/recruit/work/img/oneday/point-bg.png') 2px 3px;
+	padding: 5px;
+}
+
+#oneday .box .point h4{
+	position: absolute;
+	top: -43px;
+	left: 0;
+}
+
+#oneday .box .point p{
+	background-color: #fff;
+	padding: 12px 28px;
+}
+
+#oneday .contents-wrap .first{
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+	border-bottom: 1px dashed #e03e3e;
+}
+#oneday .contents-wrap .first .left{
+	float: left;
+	width: 248px;
+	padding-left: 50px;
+}
+
+#oneday .contents-wrap .first .right{
+	float: right;
+	width: 546px;
+	padding-right: 50px;
+}
+
+#oneday .contents-wrap .first .left .prof{
+	background-color: #e03e3e;
+	font-weight: bold;
+	color: #fff;
+	padding: 14px 0px 14px 21px;
+	font-size: 11px;
+	position: relative;
+	width: 177px;
+	margin: 0 auto;
+}
+
+#oneday #mario .first .left .prof{
+	width: 142px;
+}
+
+#oneday .contents-wrap .first .left .prof .up::before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 9px;
+	left: 7px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+#oneday .contents-wrap .first .left .prof .up::after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 9px;
+	right: 7px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+#oneday .contents-wrap .first .left .prof .down::before{
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 9px;
+	left: 7px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+#oneday .contents-wrap .first .left .prof .down::after{
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 9px;
+	right: 7px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+#oneday .contents-wrap .first .right .subtitle{
+	padding: 20px 0 10px;
+}
+
+#oneday .dream{
+	padding-top: 20px;
+}
+#oneday .dream .left{
+	float: left;
+	width: 319px;
+	padding-top: 65px;
+}
+
+#oneday .dream .right{
+	float: right;
+	width: 532px;
+}
+
+#oneday .dream .right .subtitle{
+	padding: 0 0 20px;
+}
+
+#oneday .dream .right h4{
+	font-weight: bold;
+	color: #E03E3E;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+
+/*--------------------------------------
+Smartphone 
+----------------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+#oneday #contents-wrap h1{
+	margin-bottom: 20px;
+}
+
+#oneday h2{
+	display: block;
+	text-align: center;
+	line-height: 0;
+	cursor: pointer;
+	margin-top: 5px;
+}
+
+#oneday #kitamura h2{
+	background-color: #e03e3e;
+}
+
+#oneday #mario h2{
+	background-color: #db3b68;
+}
+
+#oneday #kitamura,
+#oneday #mario{
+	display: block;
+}
+
+#oneday .contents-wrap{
+	padding: 10px;
+	margin-top: 0;
+	display: none;
+}
+
+#oneday h3{
+	margin: 0 auto 10px;
+}
+
+#oneday .img-left h3,
+#oneday .img-right h3{
+	float: none;
+	width: 100%;
+	max-width: 307px;
+	margin: 0 auto 20px;
+	height: auto;
+}
+
+#oneday #mario-sec1 .left{
+	float: none;
+    width: 100%;
+}
+
+#oneday #mario-sec1 h3{
+	float: none;
+}
+
+#oneday #mario-sec1 h3 p{
+	padding: 1em 0;
+}
+
+#oneday #mario-sec1 .box .point{
+	margin-top: 60px;
+}
+
+#oneday .img-left .box,
+#oneday .img-right .box{
+	float: none;
+}
+
+#oneday .img-left .box,
+#oneday .img-right .box{
+	width: 100%;
+}
+
+#oneday #mario-sec1 .box{
+	width: 100%;
+}
+
+#oneday .contents-wrap .box > p{
+	padding: 
+}
+
+#oneday .contents-wrap .box p br{
+	display: none;
+}
+
+#oneday .img-left h3,
+#oneday .img-right h3{
+	line-height: 0;
+}
+
+#oneday .contents-wrap .first{
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+}
+
+#oneday .contents-wrap .first .left .prof{
+	max-width: 240px;
+	margin: 0 auto;
+}
+
+#oneday .contents-wrap .first .left{
+	float: none;
+	width: 100%;
+	padding-left: 0;
+}
+
+#oneday .contents-wrap .first .left img{
+	display: block;
+	margin: 0 auto 10px;
+}
+
+#oneday .contents-wrap .first .right{
+	float: none;
+	width: 100%;
+	padding-right: 0;
+}
+
+#oneday .contents-wrap .first .right .subtitle{
+	padding: 20px 0 10px;
+}
+
+#oneday .dream{
+	padding-top: 0px;
+}
+#oneday .dream .left{
+	float: none;
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+
+#oneday .dream .right{
+	float: none;
+	width: 100%;
+}
+
+#oneday .dream .right .subtitle{
+	padding: 20px 0 10px;
+}
+
+#oneday .dream .right h4{
+	font-size: 1rem;
+	margin-bottom: 15px;
+}
+
+}
+

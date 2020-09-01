@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>TITLE</title>
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="keyword" content="">
+    <meta name="description" content="">
+    <meta name="og:title" content="">
+    <meta name="og:description" content="">
+    <meta name="og:image" content="">
+  </head>
+  <body id="body">
+    <header></header>
+    <main>
+      <button id="start-btn">start</button>
+      <button id="stop-btn">stop</button>
+      <div id="result"></div>
+      <video id="camera" width="100%" height="100%"></video>
+      <canvas id="picture" width="300" height="200"></canvas>
+    </main>
+    <footer></footer>
+  </body>
+  <script>
+    window.onload = () => {
+      
+      const video  = document.querySelector("#camera");
+      const canvas = document.querySelector("#picture");
+    
+      const constraints = {
+        audio: false,
+        video: {
+          width: { min: 1280 },
+          height: { min: 720 },
+          facingMode: "user"   // フロントカメラを利用する
+          // facingMode: { exact: "environment" }  // リアカメラを利用する場合
+        }
+      };
+    
+      navigator.mediaDevices.getUserMedia(constraints)
+      .then( (stream) => {
+        video.srcObject = stream;
+        video.onloadedmetadata = (e) => {
+          video.play();
+        };
+      })
+      .catch( (err) => {
+        console.log(err.name + ": " + err.message);
+      });
+    
+      const startBtn = document.querySelector('#start-btn');
+      const stopBtn = document.querySelector('#stop-btn');
+      const resultDiv = document.querySelector('#result');
+    
+      SpeechRecognition = webkitSpeechRecognition || SpeechRecognition;
+      if (!"SpeechRecognition" in window) {
+        alert("お使いのブラウザは音声認識いません");
+        console.log("お使いのブラウザは音声認識に対応していません");
+        return;
+      }
+      const recognition = new SpeechRecognition();
+      recognition.interimResults = true;
+      recognition.continuous = true;
+      recognition.lang = 'ja-JP';
+      let finalTranscript = ''; // 確定した(黒の)認識結果
+    
+      recognition.onresult = event => {
+        let interimTranscript = ''; // 暫定(灰色)の認識結果
+        let speechScript = "";
+        for (let i = event.resultIndex; i < event.results.length; i++) {
+          let transcript = event.results[i][0].transcript;
+          if (event.results[i].isFinal) {
+            finalTranscript += transcript;
+          } else {
+            interimTranscript = transcript;
+          }
+        }
+        resultDiv.innerHTML = finalTranscript + '<i style="color:#ddd;">' + interimTranscript + '</i>';
+        console.log(interimTranscript);
+        if(interimTranscript.indexOf('青')>-1) {
+          document.querySelector('#body').setAttribute('style','background-color: #0000cc');
+        }
+        if(interimTranscript.indexOf('赤')>-1) {
+          document.querySelector('#body').setAttribute('style','background-color: #cc0000');
+        }
+        if(interimTranscript.indexOf('緑')>-1) {
+          document.querySelector('#body').setAttribute('style','background-color: #00cc00');
+        }
+        if(interimTranscript.indexOf('黒')>-1) {
+          document.querySelector('#body').setAttribute('style','background-color: #000');
+        }
+        if(interimTranscript.indexOf('白')>-1) {
+          document.querySelector('#body').setAttribute('style','background-color: #fff');
+        }
+      }
+      startBtn.onclick = () => {
+        recognition.start();
+      }
+      stopBtn.onclick = () => {
+        recognition.stop();
+      }
+    };
+  </script>
+</html>

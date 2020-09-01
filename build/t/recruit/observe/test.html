@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta property="og:site_name" content="カメラのキタムラ">
+<meta property="og:image" content="http://www.kitamura.co.jp/recruit/shared/images/ogimage.png">
+<meta property="og:title" content="(株)キタムラ採用情報" >
+<meta name="description" content="「カメラのキタムラ」「スタジオマリオ」「アップル製品サービス」を運営する、株式会社キタムラの新卒者向け採用情報ページです。">
+<meta name="keywords" content="採用,カメラ,きたむら,キタムラ,スタジ,オマリオ">
+<title>店舗見学のご案内</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+<script src="/shared/urchin/gtm.js"></script>
+<meta name="theme-color" content="#d80b24">
+<meta property="og:site_name" content="株式会社キタムラ">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:type" content="article">
+<meta property="og:title" content="採用情報：店舗見学のご案内｜カメラのキタムラ">
+<meta property="og:description" content="「カメラのキタムラ」「スタジオマリオ」「アップル製品サービス」を運営する、株式会社キタムラの新卒者向け採用情報ページです。">
+<meta property="og:url" content="http://www.kitamura.co.jp/recruit/">
+<meta property="og:image" content="http://www.kitamura.co.jp/images/og_image.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide {
+	position: relative;
+}
+
+.cv-wrap,
+.cv-bg {
+	display: none;
+	position: fixed;
+}
+
+.cv-bg {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 5000;
+	background: rgba(0,0,0,0);
+	transition: background-color .5s ease;
+}
+
+.cv-wrap {
+	top: 0;
+	left: 0;
+	z-index: 5001;
+	width: 100%;
+	height: 100%;
+}
+
+.is-cv-active {
+}
+
+.is-cv-active .cv-wrap,
+.is-cv-active .cv-bg {
+	display: block;
+}
+
+.cv-btn-close {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5100;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	text-indent: -9999px;
+}
+
+.cv-btn-close::before, .cv-btn-close::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 32px;
+	height: 1px;
+	background-color: #ccc;
+}
+    
+ .cv-btn-close::before {
+	transform: rotate(45deg);
+}
+    
+ .cv-btn-close::after {
+	transform: rotate(-45deg);
+ }
+ 
+.swiper-button-prev {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23cccccc'%2F%3E%3C%2Fsvg%3E");
+}
+
+.swiper-button-next {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23cccccc'%2F%3E%3C%2Fsvg%3E");
+}
+
+.swiper-btn-prev, .swiper-btn-next {
+	display: block;
+ 	position: absolute;
+	top: 50%;
+	width: 64px;
+	height: 64px;
+	margin-top: -32px;
+	z-index: 10;
+ }
+
+.swiper-btn-prev {
+	left: 0;
+ }
+.swiper-btn-next {
+ 	right: 0;
+ }
+.swiper-btn-prev::before, .swiper-btn-next::before,
+.swiper-btn-prev::after, .swiper-btn-next::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 50%;
+	width: 32px;
+	height: 1px;
+	background: #ccc;
+}
+
+.swiper-btn-prev::before {
+	transform: rotate(-45deg) translate(15px,0px);
+ }
+ 
+.swiper-btn-prev::after {
+	transform: rotate(45deg) translate(15px,0px);
+ }
+ 
+.slide-inner {
+	display: block;
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	bottom: 5%;
+	left: 5%;
+	background: #fff;
+	/* Center slide text vertically */
+	text-align: center;
+	font-size: 18px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	
+}
+
+.cv-wrap > * {
+	opacity: 0;
+	transition: opacity .5s ease;
+}
+
+.is-swiper-active .cv-wrap > * {
+	opacity: 1;
+}
+
+.is-swiper-active .cv-wrap {
+	background-color: rgba(0,0,0,.5);
+}
+
+
+
+.slide-inner img {
+	max-width: 95%;
+	max-height: 95%;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	transform: translate(-50%,-50%);
+}
+
+
+
+.slide-inner > p {
+	position: absolute;
+	bottom: 0;
+	z-index: 10;
+}
+
+.slide-inner iframe {
+	border: none;
+	overflow: auto;
+	
+	width: 90%;
+	height: 90%;
+}
+
+</style>
+</head>
+<body>
+<div class="container-fluid">
+<div class="container">
+<div class="page-header clearfix">
+<ul class="logos">
+<li><a href="http://www.kitamura.jp/"><img src="images/logo_k.png" alt="カメラのキタムラ"></a></li>
+<li><a href="http://www.studio-mario.jp/"><img src="images/logo_m.png" alt="スタジオマリオ"></a></li>
+</ul>
+<h1>店舗見学のご案内</h1>
+<!-- /page-header --></div>
+<!-- /container --></div>
+<!-- /container --></div>
+
+<div class="container">
+
+<section id="lecture">
+<p>キタムラでは、選考中の店舗見学をお願いしています。<br />
+<span class="minutely">（三次選考の中でお話を伺いますので、それまでに見学を済ませてください。）</span></p>
+<p>説明会でもお伝えしたように、キタムラの仕事のポイントは「店づくり」と「チームづくり」です。<br />
+実際の店舗に行き、<span style="color: #339966;" class="draw-line">その雰囲気や、気づいたこと、感じたこと</span>をまとめましょう。<br />
+また、<span style="color: #339966" class="draw-line">自分が働く姿をイメージし、ギャップがないかどうか</span>も確かめてみましょう。</p>
+<h2>【見学のポイント】</h2>
+<h3><span style="color: #c00">１．お客さまの目線でみる</span></h3>
+<p>実際に商品・サービスを見てみよう！体験してみよう！</p>
+<h3><span style="color: #c00">２．働く側の目線でみる</span></h3>
+<p>・お客さまとの関わりは？（どんな会話をしている？距離感は？・・・など）</p>
+<p>・スタッフ同士の関わりは？</p>
+<p>・どんな行動をとっている？</p>
+<p>※実際に声をかけてみてもいいでしょう。</p>
+<h2>【よくある質問】</h2>
+<h3><span class="label label-info">Q</span>「見学の予約は必要ですか？」</h3>
+<ol class="faq">
+<li>スタジオマリオの撮影の見学は、事前に予約した方がいいでしょう。<br>
+<span class="minutely">（お客さまも予約制の為、いつ予約が入っているか、見学してもいいかなどの確認をしましょう。）</span></li>
+<li>店内の見学は、いつでも自由に行っていただいて構いません。<br>
+※比較的空いている、平日の見学をおすすめします。</li>
+</ol>
+<h3><span class="label label-info">Q</span>「服装はスーツですか？」</h3>
+<p>自由です。私服で構いません。</p>
+<h3><span class="label label-info">Q</span>「カメラのキタムラ・スタジオマリオ両方とも見学した方がいいですか？」</h3>
+<p>三次選考までには、必ず両方の店舗を見学しましょう。</p>
+<p>※特に、レポートなどにまとめる必要はありません。見学する店舗は自由です。以下に、オススメ店舗をご紹介していますので、参考にしてください！</p>
+<p>写真をクリックすると、先輩社員のコメントと店舗地図がご覧いただけます。</p>
+</section>
+<section id="listStore">
+<h2>【オススメ店舗一覧】</h2>
+<div class="row flex">
+
+<div class="item"><a href="/recruit/observe/p/51.html" data-iframe="true"><img src="images/p/51.jpg" width="115" height="87" alt="">
+<p class="name">石井 大輔</p>
+<p class="shop">カメラのキタムラ<br>
+札幌／イオン札幌桑園店</p>
+<p class="year">2004年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/02.html" data-iframe="true"><img src="images/p/02.jpg" width="115" height="87" alt="">
+<p class="name">北浦 奈緒美</p>
+<p class="shop">スタジオマリオ<br>
+札幌／西野店</p>
+<p class="year">2010年入社</p>
+</a></div>
+
+<!--<div class="item"><a href="/recruit/observe/p/42.html" data-iframe="true"><img src="images/p/42.jpg" width="115" height="87" alt="">
+<p class="name">長谷川 貴希</p>
+<p class="shop">カメラのキタムラ<br>
+仙台／泉店</p>
+<p class="year">2014年入社</p>
+</a></div>-->
+
+<div class="item"><a href="/recruit/observe/p/56.html" data-iframe="true"><img src="images/p/56.jpg" width="115" height="87" alt="">
+<p class="name">田中 あゆみ</p>
+<p class="shop">スタジオマリオ<br>
+仙台／荒井店</p>
+<p class="year">2008年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/04.html" data-iframe="true"><img src="images/p/04.jpg" width="115" height="87" alt="">
+<p class="name">根本 咲子</p>
+<p class="shop">スタジオマリオ<br>
+仙台／泉店</p>
+<p class="year">2003年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/43.html" data-iframe="true"><img src="images/p/43.jpg" width="115" height="87" alt="">
+<p class="name">今野 恵理</p>
+<p class="shop">スタジオマリオ<br>
+仙台／鈎取ショッピングセンター店</p>
+<p class="year">2009年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/15.html" data-iframe="true"><img src="images/p/15.jpg" width="115" height="87" alt="">
+<p class="name">山口 愛美</p>
+<p class="shop">スタジオマリオ<br>
+千葉／イオンマリンピア店</p>
+<p class="year">2010年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/48.html" data-iframe="true"><img src="images/p/48.jpg" width="115" height="87" alt="">
+<p class="name">多賀野 友輔</p>
+<p class="shop">カメラのキタムラ<br>
+市川／北国分店</p>
+<p class="year">2016年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/17.html" data-iframe="true"><img src="images/p/17.jpg" width="115" height="87" alt="">
+<p class="name">坂井 美紀</p>
+<p class="shop">スタジオマリオ<br>
+市川／妙典店</p>
+<p class="year">2014年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/47.html" data-iframe="true"><img src="images/p/47.jpg" width="115" height="87" alt="">
+<p class="name">佐々木 彩乃</p>
+<p class="shop">スタジオマリオ<br>
+所沢／所沢店</p>
+<p class="year">2015年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/21.html" data-iframe="true"><img src="images/p/21.jpg" width="115" height="87" alt="">
+<p class="name">佐治 友理恵</p>
+<p class="shop">スタジオマリオ<br>
+戸田／イオンモール北戸田店</p>
+<p class="year">2012年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/31.html" data-iframe="true"><img src="images/p/31.jpg" width="115" height="87" alt="">
+<p class="name">吉川 剛史</p>
+<p class="shop">カメラのキタムラ<br>
+川口／東川口店</p>
+<p class="year">2001年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/57.html" data-iframe="true"><img src="images/p/57.jpg" width="115" height="87" alt="">
+<p class="name">笹木 仁美</p>
+<p class="shop">スタジオマリオ<br>
+草加／草加店</p>
+<p class="year">2015年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/11.html" data-iframe="true"><img src="images/p/11.jpg" width="115" height="87" alt="">
+<p class="name">原 枝実子</p>
+<p class="shop">スタジオマリオ<br>
+東京／セブンタウン小豆沢店</p>
+<p class="year">2010年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/53.html" data-iframe="true"><img src="images/p/53.jpg" width="115" height="87" alt="">
+<p class="name">坂巻 愛美</p>
+<p class="shop">スタジオマリオ<br>
+立川／若葉店</p>
+<p class="year">2014年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/05.html" data-iframe="true"><img src="images/p/05.jpg" width="115" height="87" alt="">
+<p class="name">堺谷 美保</p>
+<p class="shop">スタジオマリオ<br>
+厚木／林店</p>
+<p class="year">2013年入社</p>
+</a></div>
+
+<!--<div class="item"><a href="/recruit/observe/p/06.html" data-iframe="true"><img src="images/p/06.jpg" width="115" height="87" alt="">
+<p class="name">栗原 将司</p>
+<p class="shop">カメラのキタムラ<br>
+藤沢／湘南台店</p>
+<p class="year">2014年入社</p>
+</a></div>-->
+
+<!--<div class="item"><a href="/recruit/observe/p/07.html" data-iframe="true"><img src="images/p/07.jpg" width="115" height="87" alt="">
+<p class="name">小代 卓也</p>
+<p class="shop">カメラのキタムラ<br>
+戸塚／東戸塚店</p>
+<p class="year">2014年入社</p>
+</a></div>-->
+
+<div class="item"><a href="/recruit/observe/p/58.html" data-iframe="true"><img src="images/p/58.jpg" width="115" height="87" alt="">
+<p class="name">大橋 美紅</p>
+<p class="shop">スタジオマリオ<br>
+横浜／カトレヤプラザ伊勢佐木店</p>
+<p class="year">2016年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/08.html" data-iframe="true"><img src="images/p/08.jpg" width="115" height="87" alt="">
+<p class="name">中野 杏子</p>
+<p class="shop">スタジオマリオ<br>
+横浜／港北東急店</p>
+<p class="year">2004年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/12.html" data-iframe="true"><img src="images/p/12.jpg" width="115" height="87" alt="">
+<p class="name">古田土 勇介</p>
+<p class="shop">カメラのキタムラ<br>
+相模原／星が丘店</p>
+<p class="year">2006年入社</p>
+</a></div>
+
+<!--<div class="item"><a href="/recruit/observe/p/09.html" data-iframe="true"><img src="images/p/09.jpg" width="115" height="87" alt="">
+<p class="name">平坂 哲哉</p>
+<p class="shop">カメラのキタムラ<br>
+東久留米／東久留米店</p>
+<p class="year">2015年入社</p>
+</a></div>-->
+
+<!--<div class="item"><a href="/recruit/observe/p/44.html" data-iframe="true"><img src="images/p/44.jpg" width="115" height="87" alt="">
+<p class="name">中村 賢人</p>
+<p class="shop">カメラのキタムラ<br>
+町田／旭町店</p>
+<p class="year">2015年入社</p>
+</a></div>-->
+
+<div class="item"><a href="/recruit/observe/p/13.html" data-iframe="true"><img src="images/p/13.jpg" width="115" height="87" alt="">
+<p class="name">岩淵 和孝</p>
+<p class="shop">カメラのキタムラ<br>
+名古屋／緑・上旭店</p>
+<p class="year">2006年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/49.html" data-iframe="true"><img src="images/p/49.jpg" width="115" height="87" alt="">
+<p class="name">根本 詩穂</p>
+<p class="shop">スタジオマリオ<br>
+豊川／諏訪店</p>
+<p class="year">2015年入社</p>
+</a></div>
+
+
+<div class="item"><a href="/recruit/observe/p/59.html" data-iframe="true"><img src="images/p/59.jpg" width="115" height="87" alt="">
+<p class="name">山東 友紀</p>
+<p class="shop">スタジオマリオ<br>
+安城／安城店</p>
+<p class="year">2013年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/50.html" data-iframe="true"><img src="images/p/50.jpg" width="115" height="87" alt="">
+<p class="name">川端 祥史</p>
+<p class="shop">モバイル<br>
+藤枝／田沼店</p>
+<p class="year">2014年入社</p>
+</a></div>
+
+<!--<div class="item"><a href="/recruit/observe/p/19.html" data-iframe="true"><img src="images/p/19.jpg" width="115" height="87" alt="">
+<p class="name">山部 彰人</p>
+<p class="shop">カメラのキタムラ<br>
+東京／羽村店</p>
+<p class="year">2013年入社</p>
+</a></div>-->
+
+<div class="item"><a href="/recruit/observe/p/25.html" data-iframe="true"><img src="images/p/25.jpg" width="115" height="87" alt="">
+<p class="name">内田 俊郎</p>
+<p class="shop">モバイル<br>
+豊中／豊中店</p>
+<p class="year">2015年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/28.html" data-iframe="true"><img src="images/p/28.jpg" width="115" height="87" alt="">
+<p class="name">田村 美由紀</p>
+<p class="shop">スタジオマリオ<br>
+堺／イトーヨーカドー津久野店</p>
+<p class="year">2009年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/45.html" data-iframe="true"><img src="images/p/45.jpg" width="115" height="87" alt="">
+<p class="name">北川 美香</p>
+<p class="shop">スタジオマリオ<br>
+大阪／イトーヨーカドー東大阪</p>
+<p class="year">2010年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/26.html" data-iframe="true"><img src="images/p/26.jpg" width="115" height="87" alt="">
+<p class="name">安田 有里恵</p>
+<p class="shop">スタジオマリオ<br>
+茨木／イオン新茨木店</p>
+<p class="year">2012年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/29.html" data-iframe="true"><img src="images/p/29.jpg" width="115" height="87" alt="">
+<p class="name">大沼 良恵</p>
+<p class="shop">スタジオマリオ<br>
+京都／亀岡店</p>
+<p class="year">2015年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/30.html" data-iframe="true"><img src="images/p/30.jpg" width="115" height="87" alt="">
+<p class="name">伊藤 はるか</p>
+<p class="shop">スタジオマリオ<br>
+宇治／大久保店</p>
+<p class="year">2012年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/46.html" data-iframe="true"><img src="images/p/46.jpg" width="115" height="87" alt="">
+<p class="name">久保山 淳平</p>
+<p class="shop">カメラのキタムラ<br>
+京都／四条西院店</p>
+<p class="year">2009年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/52.html" data-iframe="true"><img src="images/p/52.jpg" width="115" height="87" alt="">
+<p class="name">鬼柳 好花</p>
+<p class="shop">スタジオマリオ<br>
+長浜／長浜店</p>
+<p class="year">2016年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/33.html" data-iframe="true"><img src="images/p/33.jpg" width="115" height="87" alt="">
+<p class="name">笹嶋 瑞奈</p>
+<p class="shop">スタジオマリオ<br>
+近江八幡／近江八幡店</p>
+<p class="year">2012年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/34.html" data-iframe="true"><img src="images/p/34.jpg" width="115" height="87" alt="">
+<p class="name">西浦 智子</p>
+<p class="shop">スタジオマリオ<br>
+尼崎／つかしん店</p>
+<p class="year">2001年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/35.html" data-iframe="true"><img src="images/p/35.jpg" width="115" height="87" alt="">
+<p class="name">吉永 早希</p>
+<p class="shop">スタジオマリオ<br>
+宝塚／安倉店</p>
+<p class="year">2009年入社</p>
+</a></div>
+
+<!--<div class="item"><a href="/recruit/observe/p/36.html" data-iframe="true"><img src="images/p/36.jpg" width="115" height="87" alt="">
+<p class="name">赤城 武志</p>
+<p class="shop">カメラのキタムラ<br>
+広島／祇園店</p>
+<p class="year">1999年入社</p>
+</a></div>-->
+
+<!--<div class="item"><a href="/recruit/observe/p/38.html" data-iframe="true"><img src="images/p/38.jpg" width="115" height="87" alt="">
+<p class="name">斉藤 直也</p>
+<p class="shop">カメラのキタムラ<br>
+福岡／松島店</p>
+<p class="year">1997年入社</p>
+</a></div>-->
+
+<div class="item"><a href="/recruit/observe/p/60.html" data-iframe="true"><img src="images/p/60.jpg" width="115" height="87" alt="">
+<p class="name">平田 ちひろ</p>
+<p class="shop">スタジオマリオ<br>
+防府／駅南店</p>
+<p class="year">2014年入社</p>
+</a></div>
+
+<!--
+<div class="item"><a href="/recruit/observe/p/39.html" data-iframe="true"><img src="images/p/39.jpg" width="115" height="87" alt="">
+<p class="name">佐藤 杏菜</p>
+<p class="shop">スタジオマリオ<br>
+八幡／折尾店</p>
+<p class="year">2015年入社</p>
+</a></div>
+-->
+
+<div class="item"><a href="/recruit/observe/p/54.html" data-iframe="true"><img src="images/p/54.jpg" width="115" height="87" alt="">
+<p class="name">西村 美幸</p>
+<p class="shop">スタジオマリオ<br>
+行橋／行橋店</p>
+<p class="year">2006年入社</p>
+</a></div>
+
+<!--
+<div class="item"><a href="/recruit/observe/p/32.html" data-iframe="true"><img src="images/p/32.jpg" width="115" height="87" alt="">
+<p class="name">吉岡 楓</p>
+<p class="shop">スタジオマリオ<br>
+福岡／原店</p>
+<p class="year">2014年入社</p>
+</a></div>
+-->
+
+<div class="item"><a href="/recruit/observe/p/40.html" data-iframe="true"><img src="images/p/40.jpg" width="115" height="87" alt="">
+<p class="name">福島 涼太</p>
+<p class="shop">カメラのキタムラ<br>
+太宰府／太宰府店</p>
+<p class="year">2013年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/41.html" data-iframe="true"><img src="images/p/41.jpg" width="115" height="87" alt="">
+<p class="name">渋川 真理子</p>
+<p class="shop">スタジオマリオ<br>
+太宰府／太宰府店</p>
+<p class="year">2004年入社</p>
+</a></div>
+
+<div class="item"><a href="/recruit/observe/p/55.html" data-iframe="true"><img src="images/p/55.jpg" width="115" height="87" alt="">
+<p class="name">山口 綾花</p>
+<p class="shop">スタジオマリオ<br>
+福岡／長住店</p>
+<p class="year">2015年入社</p>
+</a></div>
+
+
+
+<!-- /row --></div>
+</section>
+
+
+<footer>
+<!-- /footer -->
+</footer>
+
+<!-- /container --></div>
+
+<p><a href="#cv-slide#1">起動</a></p>
+
+<div class="cv-bg"><!--/ cv-bg --></div>
+
+<div class="cv-wrap">
+<p class="cv-btn-close">closle</p>
+<div class="swiper-container">
+<div class="swiper-wrapper">
+</div>
+<div class="swiper-btn-next"></div>
+<div class="swiper-btn-prev"></div>
+</div>
+<!-- /wrap --></div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+<!--<script src="/shared/js/swiper.jquery.js"></script>-->
+<script>
+	var cv_swiper;
+$(function() {
+
+
+	$('#listStore .item').each( function() {
+		var src = $(this).find( 'a' ).attr( 'href' );
+		$('.swiper-wrapper').append(
+			$('<div>').addClass( 'swiper-slide' ).attr( 'data-hash', 'cv-'+ src ).append(
+				$('<div>').addClass( 'slide-inner' ).append(
+					$('<iframe>').attr({
+						'data-src': src,
+						'allowtransparency': true
+					})
+				)
+			)
+		);
+		
+		$(this).find( 'a' ).attr( 'href', '#cv-'+ src );
+	});
+
+	function initSwiper() {
+		cv_swiper = new Swiper( '.swiper-container', {
+			loop: true,
+			//enable hash navigation
+			hashnav: true,
+			hashnavWatchState: true,
+			//replaceState: true,
+			nextButton: '.swiper-btn-next',
+			prevButton: '.swiper-btn-prev',
+			spaceBetween: 30,
+			onInit: function(swiper) {
+				console.log( 'oninit' );
+			},
+			onDestroy: function(swiper) {
+				console.log( 'onDestroy' );
+				cv_swiper = {};
+			},
+			onSlideChangeStart: function( swiper ) {
+				console.log( 'onSlideChangeStart' );
+			},
+			onSlideChangeEnd: function( swiper ) {
+				console.log( 'onSlideChangeEnd' );
+				
+				if( !$('.swiper-slide-active iframe').hasClass( 'replaced' ) ) {
+					var src = $('.swiper-slide-active iframe').attr( 'data-src' );
+					console.log( src );
+					$('.swiper-slide-active iframe' ).attr({
+						'src': src
+					}).on( 'load', function() {
+						console.log( 'loaded.' );
+					}).addClass( 'replaced' );
+				}
+			}
+		});
+	}
+	
+	// とじる
+	function closeCV() {
+		if( !$.isEmptyObject( cv_swiper ) ) {
+			$('body').removeClass( 'is-swiper-active' );
+
+			$(window).off( 'hashchange', cv_swiper.hashnav.onHashCange );
+
+			setTimeout( function() {
+				cv_swiper.destroy( true, true );
+				cv_swiper = {};
+				$('body').removeClass( 'is-cv-active' );
+			}, 500 );
+		}
+	}
+	
+	
+	$('.cv-btn-close').on( 'click', function() {
+		console.log( 'close!' );
+		//location.hash = '';
+		window.history.pushState( null, null, '#');
+		
+		// とじる
+		closeCV();
+		
+		return false;
+	});
+	
+	$('.list-slide a').on( 'click', function() {
+		location.hash = $(this).attr( 'href' );
+		
+		return false;
+	});
+	
+	$(window).on( 'hashchange', function( e ) {
+		console.log( 'hashchange---' /*, e.originalEvent*/ );
+		
+		if( /#cv-/.test( location.hash ) ) {
+			console.log( 'hashchange hash を検知しました。' );
+			$('body').addClass( 'is-cv-active' );
+			
+			setTimeout( function() {
+				$('body').addClass( 'is-swiper-active' );
+			}, 100 );
+			
+			if( $.isEmptyObject( cv_swiper ) ) {
+				console.log( 'hashchange initSwiper' );
+				initSwiper();
+			}
+		}
+		else {
+			console.log( 'hashchange hash を検知できなかった！' );
+			
+		}
+		
+		
+	});
+	
+	
+	$(window).on( 'popstate', function( e ) {
+		console.log( 'popstate---', e.originalEvent );
+		if( /#cv-/.test( location.hash ) ) {
+			console.log( 'popstate hash を検知しました。' );
+		}
+		else {
+			console.log( 'popstate hash を検知できなかった！' );
+			
+			// とじる
+			closeCV();
+		}
+	});
+	
+	$(window).trigger( 'hashchange' );
+	
+	
+	$('.swiper-slide').on( 'click', function(e) {
+		console.log( 'click', e );
+		// とじる
+		closeCV();
+	});
+	
+	$('.slide-inner').on( 'click', function(e) {
+		console.log( 'click', e );
+		e.stopPropagation();
+	});
+	
+	
+	
+});
+</script>
+
+</body>
+</html>

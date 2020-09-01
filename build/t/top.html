@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,shrink-to-fit=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="株式会社キタムラ コーポレートサイト。カメラのキタムラ、スタジオマリオを運営しています。">
+<meta name="keywords" content="フォトブック,デジカメ,年賀状,デジカメプリント,ネットプリント,カメラ,きたむら,キタムラ">
+<title>株式会社キタムラ カメラ・デジカメ・フォトブックの専門店チェーン</title>
+<link rel="canonical" href="http://www.kitamura.co.jp/top.html">
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+<script src="/shared/urchin/gtm.js" async></script>
+<meta name="theme-color" content="#d80b24">
+<meta property="og:site_name" content="株式会社キタムラ">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:type" content="website">
+<meta property="og:title" content="株式会社キタムラ カメラ・デジカメ・フォトブックの専門店チェーン">
+<meta property="og:description" content="株式会社キタムラ コーポレートサイト。カメラのキタムラ、スタジオマリオを運営しています。">
+<meta property="og:url" content="http://www.kitamura.co.jp/top.html">
+<meta property="og:image" content="http://www.kitamura.co.jp/images/og_image.png">
+<link rel="stylesheet" type="text/css" href="/shared/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="/shared/css/style.css">
+<link rel="stylesheet" type="text/css" href="/shared/css/swiper.min.css">
+<style>
+.visual {
+	position: relative;
+	margin: 15px 0;
+	/*padding-top: 81.25%;*/
+	padding-top: 83.0%;
+}
+
+.visual p {
+	margin: 0;	
+}
+
+#logo-unit-k {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#logo-unit-m {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 66px;
+}
+
+#logo-unit-s {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 0;
+	
+	transform: translate(-50%,-50%);
+}
+
+#logo-unit-s img {
+	width: 200px;
+	height: auto;
+	opacity: 1;
+	
+	transition: opacity .25s ease;
+}
+
+
+#title,
+#reload {
+	position: absolute;
+	bottom: 0;	
+	z-index: 10;
+	font-size: 1.0rem;	
+}
+
+#title {
+	right: 0;
+	color: #999;
+}
+
+#title a {
+	color: currentColor;
+}
+
+#reload {
+	cursor: pointer;
+}
+
+#title .glyphicon,
+#reload .glyphicon {
+	transform: scale(.8);
+	font-size: 10px;
+	color: #ccc;
+}
+
+
+#place-holder {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+#place-holder img {
+	display: block;
+	width: 94%;
+	height: auto;
+	margin: 0 auto;
+	padding: 4px;
+	background: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 2px 2px 4px #f0f0f0;
+}
+
+.swiper-slide > span {
+	display: block;
+	margin-top: 1.0rem;
+	font-size: 1.1rem;
+	background: rgba(255,255,255,.75);
+}
+
+#place-holder {
+	opacity: 0;
+	transition: opacity .5s ease;
+}
+
+.loaded #place-holder  {
+	opacity: 1;
+}
+
+.list-news {
+	box-sizing: border-box;	
+}
+
+.list-news > dt {
+	margin: 1.0rem 0 .2rem;
+}
+
+.list-news > dd {
+	margin: .5rem 0 2.0rem;
+}
+
+.list-news time {
+	margin-bottom: .2rem;
+}
+
+.list-news .label {
+	display: inline-block;
+	margin: 0 .2rem 0 0;
+	font-weight: normal;
+	color: inherit;
+	font-weight: normal;
+}
+
+.list-news dd img {
+	display: inline-block;
+	margin-right: .5rem;
+}
+
+.type-press::before {
+	content: '適時開示';	
+}
+
+.type-yuho::before {
+	content: '有報';	
+}
+
+.type-tanshin::before {
+	content: '短信';	
+}
+
+.type-ir_material::before {
+	content: 'IR資料';	
+}
+
+.type-announcement::before {
+	content: 'IR資料';	
+}
+
+
+.associate {
+	margin-bottom: 2.0rem;	
+}
+
+/* XS */
+@media (max-width: 991px) {
+	/*
+	.remove #logo-unit-s {
+		display: none;
+	}
+	*/
+
+	.loaded #logo-unit-s img {
+		opacity: 0;	
+	}
+	
+	.list-news > dt::after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+	
+	.list-news time {
+		float: right;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.visual {
+		height: 325px;
+		padding-top: 0;
+	}
+
+	#place-holder {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 400px;
+	}
+	
+	#logo-unit-k,
+	#logo-unit-m {
+		display: block;
+	}
+	
+	#logo-unit-s {
+		top: 50%;
+		left: 20%;
+		left: calc(50% - 200px);
+		z-index: 10;
+		transform: translateX(-50%);
+	}
+	
+	#logo-unit-s img {
+		width: 224px;
+	}
+	
+	#reload {
+		opacity: 0;
+		bottom: -5px;
+		right: 380px;
+		
+		transition: all ease .2s;
+	}
+	
+	.visual:hover #reload {
+		bottom: 4px;
+		opacity: 1;
+	}
+	
+	.swiper-slide {
+		padding-bottom: 2.0rem;
+	}
+	
+	.swiper-slide > span {
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		transform: translateX(-50%);
+	}
+	
+	.swiper-slide > img {
+		max-height: 285px;
+	}
+		
+	.list-news {
+		display: flex;
+		flex-flow: row wrap;
+		min-height: 500px;
+	}
+	
+	.list-news > dt {
+		flex: 0 0 20%;
+		margin: 1.0rem 0;
+		padding: 1.0rem;
+		
+		border-right: 1px solid #f0f0f0;
+	}
+
+	.list-news time {
+		display: block;
+		margin-bottom: .5rem;
+	}
+	
+	.list-news > dd {
+		flex: 1 0 65%;
+		margin: 1.0rem 0;
+		padding: 1.0rem;
+		
+	}
+	
+	.list-news .label {
+		display: block;
+		margin: 0 .2rem .2rem 0;
+	}
+	
+}
+
+@media (min-width: 1200px) {
+	#logo-unit-s img {
+		width: auto;
+	}
+	
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="row">
+<div class="col-xs12 col-md-4">
+<h1 class="logo"><a href="/top.html"><img src="/shared/images/logo_kg.png" alt=""><span>株式会社 キタムラ</span></a></h1>
+<div class="btn-menu">
+<p><a href="#menu"><span class="top"></span><span class="middle"></span><span class="bottom"></span></a></p>
+<!-- /btn-menu--></div>
+<!-- /col --></div>
+<!-- /row --></div>
+<nav>
+<ul id="menu">
+<li><a href="/top.html">ホーム</a></li>
+<li><a href="/news/">ニュースリリース<span class="glyphicon glyphicon-chevron-down"></span></a>
+<ul>
+<li><a href="/news/">ニュースリリーストップ</a></li>
+<li><a href="/news/2017/">2017年</a></li>
+<li><a href="/news/2016/">2016年</a></li>
+<li><a href="/news/2015/">2015年</a></li>
+<li><a href="/news/2014/">2014年</a></li>
+<li><a href="/news/2013/">2013年</a></li>
+<li><a href="/news/2012/">2012年</a></li>
+<li><a href="/news/2011/">2011年</a></li>
+<li><a href="/news/2010/">2010年</a></li>
+</ul>
+</li>
+<li><a href="/info/">会社概要<span class="glyphicon glyphicon-chevron-down"></span></a>
+<ul>
+<li><a href="/info/">会社概要トップ</a></li>
+<li><a href="/info/kitamura.html">カメラのキタムラ</a></li>
+<li><a href="/info/mario.html">スタジオマリオ</a></li>
+<li><a href="/info/labonetwork.html">ラボネットワーク</a></li>
+<li><a href="/info/laboseisan.html">ラボ生産</a></li>
+<li><a href="/info/vicom.html">ビコムキタムラ</a></li>
+<li><a href="/info/kitamurapcdepo.html">キタムラピーシーデポ</a></li>
+<li><a href="/info/kitamuratradeservice.html">キタムラトレードサービス</a></li>
+</ul>
+</li>
+<li><a href="/ir/">株主・投資家情報<span class="glyphicon glyphicon-chevron-down"></span></a>
+<ul>
+<li><a href="/ir/">株主・投資家情報トップ</a></li>
+<li><a href="/ir/messeage.html">株主・投資家の皆様</a></li>
+<li><a href="/ir/strategy.html">キタムラの戦略</a></li>
+<li><a href="/ir/governance.html">コーポレートガバナンス</a></li>
+<li><a href="/ir/businessrisk.html">事業等のリスク</a></li>
+<li><a href="/ir/investors.html">個人投資家の皆様へ</a></li>
+<li><a href="/ir/business.html">営業の概況</a></li>
+<li><a href="/ir/highlight.html">財務ハイライト</a></li>
+<li><a href="/ir/financial.html">財務情報</a></li>
+<li><a href="/ir/library.html">IR資料室</a></li>
+<li><a href="/ir/calendar.html">IRカレンダー</a></li>
+<li><a href="/ir/stock.html">株式情報</a></li>
+<li><a href="http://www.pronexus.co.jp/koukoku/2719/2719.html" target="_blank">電子公告<span class="glyphicon glyphicon-new-window"></span></a></li>
+<li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2719.T" target="_blank">株価情報<span class="small"> (Yahoo!ファイナンス)</span><span class="glyphicon glyphicon-new-window"></span></a></li>
+<li><a href="/ir/faq.html">よくあるご質問</a></li>
+<li><a href="https://member.kitamura.jp/inq/inqPc/" target="_blank">IRお問合せ<span class="glyphicon glyphicon-new-window"></span></a></li>
+<li><a href="/ir/disclaimer.html">免責事項</a></li>
+</ul>
+</li>
+<li><a href="/recruit/top.html">採用情報<span class="glyphicon glyphicon-chevron-down"></span></a>
+<ul>
+<li><a href="/recruit/top.html">採用情報トップ</a></li>
+<li><a href="/recruit/" target="_blank">(株)キタムラ 新卒採用<span class="glyphicon glyphicon-new-window"></span></a></li>
+<li><a href="https://kitamura-c.com/" target="_blank">カメラのキタムラ アルバイト採用<span class="glyphicon glyphicon-new-window"></span></a></li>
+<li><a href="https://studio-mario-job.net/" target="_blank">スタジオマリオ アルバイト採用<span class="glyphicon glyphicon-new-window"></span></a></li>
+<li><a href="https://kitamura-asp-job.net/" target="_blank">アップル製品サービス アルバイト採用<span class="glyphicon glyphicon-new-window"></span></a></li>
+</ul>
+</li>
+<li><a href="/csr/">CSRの取り組み<span class="glyphicon glyphicon-chevron-down"></span></a>
+<ul>
+<li><a href="/csr/">CSRの取り組みトップ</a></li>
+<li><a href="/csr/#act1">写真文化活動</a></li>
+<li><a href="/csr/#act2">環境保護活動</a></li>
+<li><a href="/csr/#act3">社会貢献活動</a></li>
+</ul>
+</li>
+</ul></nav>
+<!-- /container --></div>
+</header>
+
+<main>
+<div class="container">
+
+<div class="visual" >
+<p id="logo-unit-k"><a href="http://www.kitamura.jp/"><img src="/images/logo_unitK.png" width="60" height="60" alt="カメラのキタムラ"></a></p>
+<p id="logo-unit-m"><a href="http://www.studio-mario.jp/"><img src="/images/logo_unitM.png" width="60" height="60" alt="スタジオマリオ"></a></p>
+<p id="logo-unit-s"><img src="/images/logo_unit_type.png" width="286" height="40" alt="Happy with photos."></p>
+<p id="title">フォトコンテスト 入賞作品</p>
+<p id="reload" title="コンテストを切り替えます"><span class="glyphicon glyphicon-refresh"></span></p>
+<div id="place-holder">
+<noscript>
+<img src="/images/p/img_AW2015_01.jpg" width="400" alt="">
+</noscript>
+<!-- /place-holder --></div>
+<!-- /visual --></div>
+
+<div class="row">
+<div class="col-xs12 col-md-6">
+<section>
+<h2 class="h2 bb">ニュースリリース</h2>
+<dl id="news" class="list-news">
+</dl>
+<div class="row">
+<div class="col-xs-10 col-md-6 col-articles">
+<a href="/news/" class="btn btn-type-1">
+<p><span class="glyphicon glyphicon-triangle-right"></span>ニュースリリース</p>
+</a>
+<!-- /col --></div>
+<!-- /row --></div>
+</section>
+<!-- /col --></div>
+<div class="col-xs12 col-md-6 col-articles">
+<section>
+<h2 class="h2 bb">株主・投資家情報</h2>
+<div id="ir_library">
+<div id="announcement_top">
+<div id="divDataArea">
+<noscript>
+<p>ブラウザのjavascriptを有効に設定してください。</p>
+</noscript>
+<!-- /dataarea --></div>
+<!-- /anounce --></div>
+<!-- /ir_library --></div>
+<div class="row">
+<div class="col-xs-10 col-md-6">
+<a href="/ir/" class="btn btn-type-1">
+<p><span class="glyphicon glyphicon-triangle-right"></span>株主・投資家情報</p>
+</a>
+<!-- /col --></div>
+<div class="col-xs-10 col-md-6">
+<a href="/ir/highlight.html" class="btn btn-type-1">
+<p><span class="glyphicon glyphicon-triangle-right"></span>財務ハイライト</p>
+</a>
+<!-- /col --></div>
+<!-- /row --></div>
+</section>
+<!-- /col --></div>
+<!-- /row --></div>
+<!-- /container --></div>
+</main>
+<aside class="container-fluid">
+<section class="associate container">
+<h2 class="h2">グループ関連会社</h2>
+<div class="row">
+<div class="col-xs-12 col-md-2">
+<p><a href="http://www.labonetwork.co.jp/"><img src="/images/b/bnr_labo.gif" alt="LABO NETWORK" class="img-responsive"></a></p>
+<!-- /col --></div>
+<!-- /row --></div>
+<!-- /container --></section>
+</aside>
+<footer>
+<div class="inner">
+<div class="container">
+<ul class="menu-sites row">
+<li class="col-xs12 col-md-6"><a href="http://www.kitamura.jp/">
+<p><span class="title">カメラのキタムラ</span><span>デジカメ・デジカメプリント・フォトブックのポータルサイト</span></p>
+</a></li>
+<li class="col-xs12 col-md-6"><a href="http://shop.kitamura.jp/">
+<p><span class="title">ネットショップ</span><span>デジカメ・ビデオカメラ・レンズ・家電</span></p>
+</a></li>
+<li class="col-xs12 col-md-6"><a href="http://www.kitamura-print.com/">
+<p><span class="title">プリントサービス</span><span>写真プリント・デジカメプリント・ポストカード</span></p>
+</a></li>
+<li class="col-xs12 col-md-6"><a href="http://photobook.kitamura.jp/">
+<p><span class="title">フォトブック</span><span>フォトブック・オリジナル写真アルバム</span></p>
+</a></li>
+<li class="col-xs12 col-md-6"><a href="http://www.net-chuko.com/">
+<p><span class="title">ネット中古</span><span>中古デジカメ・中古レンズの購入予約買取サービス</span></p>
+</a></li>
+<li class="col-xs12 col-md-6"><a href="http://www.kitamura.jp/service/apple/">
+<p><span class="title">Apple製品修理サービス</span><span>Apple製品(iPhone・iPad・iPod)の修理</span></p>
+</a></li>
+<li class="col-xs12 col-md-6"><a href="http://www.studio-mario.jp/">
+<p><span class="title">スタジオマリオ</span><span>七五三・お宮参り・お誕生日に 記念日スタジオ</span></p>
+</a></li>
+<li class="col-xs12 col-md-6"><a href="http://nenga.kitamura.jp/">
+<p><span class="title">年賀状</span><span>写真付き年賀状・年賀状印刷・宛名印刷</span></p>
+</a></li>
+<li class="col-xs12 col-md-6"><a href="https://sss.kitamura.jp/">
+<p><span class="title">店舗検索</span><span>お近くのキタムラ・マリオを検索</span></p>
+</a></li>
+</ul>
+<!-- /container --></div>
+<!-- /inner --></div>
+
+
+<div class="container">
+<div class="row other">
+<div class="col-xs12 col-md-6">
+<ul class="menu">
+<li><a href="/policy/privacy.html">個人情報保護方針</a></li>
+<li><a href="/policy/website.html">サイトのご利用について</a></li>
+<li><a href="/contact.html">お問い合わせ</a></li>
+</ul>
+<!-- /col --></div>
+<div class="col-xs12 col-md-6">
+<div class="logo-unit">
+<p><img src="/shared/images/logo_slogan.svg" alt="Happy with photos."></p>
+<p><a href="http://www.kitamura.jp/"><img src="/shared/images/logo_kitamura.svg" alt="カメラのキタムラ"></a></p>
+<p><a href="http://www.studio-mario.jp/"><img src="/shared/images/logo_mario.svg" alt="スタジオマリオ"></a></p>
+<!-- /logo-unit --></div>
+<!-- /col --></div>
+<!-- /row --></div>
+<!-- /container --></div>
+<div class="container">
+<p id="copyright"><small>&copy;2017, <a href="/top.html">KITAMURA Co., Ltd.</a> All Rights Reserved.</small></p>
+<!-- /container --></div>
+</footer>
+<p id="goto-top"><span></span><span></span></p>
+
+<script src="/shared/js/jquery.js"></script>
+<script src="/shared/js/bootstrap.js"></script>
+<script src="/shared/js/smoothScroll.js"></script>
+<script src="/shared/js/common.js"></script>
+<script src="/shared/js/swiper.jquery.min.js"></script>
+<script src="/ir/parts/announcement_top.custom.js" async></script>
+<script>
+$(function() {
+	//console.log(p);
+	Array.prototype.shuffle = function () {
+		var xs = this.concat();
+		for (var i = 0; i < xs.length; i++) {
+		var j = xs.length * Math.random() | 0;
+		var xi = xs[i];
+		xs[i] = xs[j];
+		xs[j] = xi;
+		}
+
+		return xs;
+	};
+	
+	var swiper = {};
+	
+	var xhrp = $.ajax( '/js/photos.json', {
+		dataType: 'json'
+	}).done( function( data ) {
+		//console.log( data );
+		var contest_ID = 0;
+
+		function slide( set ) {
+			
+			$('#title').empty().append(
+				$('<a>').attr({
+					'href': set.url,
+					'target': '_blank'
+				}).text( set.title +' 入賞作品より' ).append(
+					$('<span>').addClass( 'glyphicon glyphicon-new-window' )
+				)
+			);
+			
+			var p = set.photos;
+
+			p = p.shuffle();
+			//console.log(p);
+			$('#place-holder').append(
+				$('<div>').addClass( 'swiper-container' ).append(
+					$('<div>').addClass( 'swiper-wrapper' )
+				)
+			);
+
+			var num = 5;
+
+			for( var i=0; i<num; i++ ) {
+				$('#place-holder .swiper-wrapper').append(
+					$('<div>').append(
+						$('<img>').attr({ 'src': p[i].src }),
+						//$('<img>').attr({ 'data-src': p[i].src }).addClass( 'swiper-lazy' ),
+						//$('<div>').addClass( 'swiper-lazy-preloader swiper-lazy-preloader'),
+						$('<span>').text( '「'+ p[i].title +'」' )
+					).addClass( 'swiper-slide' )
+				);
+			}
+			
+			
+			swiper = new Swiper('.swiper-container', {
+				speed: 750,
+				autoplay: 4500,
+				loop: true,
+				effect: 'fade',
+				fade: {
+					crossFade: true
+				},
+				//preloadImages: false,
+				preloadImages: true,
+				updateOnImagesReady: true,
+				onImagesReady: function( swiper ) {
+					console.log( 'loaded.' );
+					$('.visual').addClass( 'loaded' );
+					swiper.startAutoplay();
+				},
+				/*lazyLoading: true,
+				onLazyImageLoad: function( swiper, slide, img ) {
+					console.log( img, 'olil' );
+				},
+				onLazyImageReady: function( swiper, slide, img ) {
+					console.log( img.src, 'oliReady' );
+					$('.visual').addClass( 'loaded' );
+				}*/
+			});
+		
+		}
+		
+		slide( data.sets[ contest_ID ] );
+		
+		$('#reload').on('click', function() {
+			$('.visual').removeClass( 'loaded' );
+			
+			
+			
+			var t = setTimeout(function() {
+
+				if( !$.isEmptyObject( swiper ) ) {
+					swiper.destroy( true, true );	
+					$('#place-holder').empty();
+					//$('.visual').removeClass('remove');
+				}
+				
+				var l = data.sets.length;
+				do {
+					n = Math.floor( l*Math.random() );
+					//console.log( 'n', n );
+				} while ( n === contest_ID );
+				contest_ID = n;
+				//console.log( 'contest_ID', contest_ID );
+
+				slide( data.sets[ contest_ID ] );
+			}, 500 );
+		});
+		
+	});
+	
+	var xhrn = $.ajax( '/news/js/news.json?'+ new Date().getTime(), {
+		dataType: 'json'
+	}).done( function( data ) {
+		var num = data.news.length>5 ? 5 : data.news.length;
+		for( var i=0; i<num; i++ ) {
+			//console.log( data.news[i].category );
+			$('#news').append(
+				$('<dt>').append(
+					$('<time>').text( data.news[i].date ),
+					$.map( data.news[i].category, function( n ) {
+						return $('<span>').text( n.label ).addClass( 'label label-gray' );
+					})
+				),
+				$('<dd>').append(
+					$('<a>').attr('href', data.news[i].href).text( data.news[i].title )
+				) 
+			)	
+		}
+	});
+	
+	
+});
+</script>
+<script type="text/javascript" src="/shared/urchin/urchin.js"></script>
+<script>urchinTracker();</script>
+</body>
+</html>

@@ -1,0 +1,579 @@
+#senpai-top #contents-wrap h1{
+	border-bottom: 1px solid #dd4031;
+}
+
+#senpai-top #lead{
+	border: 10px solid #dd4031;
+	background-color: #f0f0f0;
+	padding: 20px;
+	width: 980px;
+	margin: 36px auto;
+}
+
+#senpai-top #lead h2{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 300px;
+	border-right: 1px solid #dd4031;
+}
+
+#senpai-top #lead p{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 10px 30px 10px 50px;
+	font-size: 14px;
+}
+
+#wrapper{
+	-moz-background-size:cover;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+#senpai01 #wrapper{ background-image: url('/recruit/work/senpai/img/senpai01/bg.jpg'); }
+#senpai02 #wrapper{ background-image: url('/recruit/work/senpai/img/senpai02/bg.jpg'); }
+#senpai03 #wrapper{ background-image: url('/recruit/work/senpai/img/senpai03/bg.jpg'); }
+#senpai04 #wrapper{ background-image: url('/recruit/work/senpai/img/senpai04/bg.jpg'); }
+#senpai05 #wrapper{ background-image: url('/recruit/work/senpai/img/senpai05/bg.jpg'); }
+#senpai06 #wrapper{ background-image: url('/recruit/work/senpai/img/senpai06/bg.jpg'); }
+#senpai07 #wrapper{ background-image: url('/recruit/work/senpai/img/senpai07/bg.jpg'); }
+
+#visual{
+	position: relative;
+	height: 598px;
+	min-width: 1000px;
+	overflow: hidden;
+}
+
+#visual .visual-img{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -683px;
+    max-width: none;
+}
+
+#visual .lead-wrap{
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	top: 256px;
+	background: url('/recruit/work/senpai/img/copy-bg.png');
+	width: 516px;
+	padding: 5px;
+}
+
+#visual.right .lead-wrap{
+	left: inherit;
+	right: 0;
+}
+
+/*#senpai05 #visual .lead-wrap{ width: 540px; }*/
+/*#senpai06 #visual .lead-wrap{ width: 540px; }*/
+#senpai07 #visual .lead-wrap{ width: 510px; }
+
+#visual .lead-wrap .number{
+	position: absolute;
+	right: 46px;
+	top: -56px;
+}
+
+#visual .lead-wrap .lead{
+	display: table;
+	width: 100%;
+	height: 180px;
+}
+
+#visual .lead-wrap .lead .copy{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+#visual .lead-wrap .lead .copy span{
+	display: inline-block;
+	text-align: left;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+#senpai01 #visual .lead-wrap .lead{ background-color: #79bbff; }
+#senpai02 #visual .lead-wrap .lead{ background-color: #f98dca; }
+#senpai03 #visual .lead-wrap .lead{ background-color: #cee410; }
+#senpai04 #visual .lead-wrap .lead{ background-color: #f4b176; }
+#senpai05 #visual .lead-wrap .lead{ background-color: #faef47; padding-left: 25px; }
+#senpai06 #visual .lead-wrap .lead{ background-color: #72ccc2; }
+#senpai07 #visual .lead-wrap .lead{ background-color: #f5bd5b; }
+
+#visual .lead-wrap .profile{
+	background-color: #fff;
+	padding: 22px 38px 18px;
+	display: table;
+	width: 100%;
+}
+
+#visual .lead-wrap .profile .name{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 32px;
+	line-height: 32px;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+#visual .lead-wrap .profile .prof{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#senpai01 #visual .lead-wrap .profile .prof{ padding-left: 50px; }
+#senpai02 #visual .lead-wrap .profile .prof{ padding-left: 80px; }
+#senpai03 #visual .lead-wrap .profile .prof{ padding-left: 70px; }
+#senpai04 #visual .lead-wrap .profile .prof{ padding-left: 90px; }
+#senpai05 #visual .lead-wrap .profile .prof{ padding-left: 110px; }
+#senpai06 #visual .lead-wrap .profile .prof{ padding-left: 160px; }
+#senpai07 #visual .lead-wrap .profile .prof{ padding-left: 125px; }
+
+#senpai02 #visual .lead-wrap{
+	left: 28px;
+}
+
+#senpai07 #visual .lead-wrap{
+	top: 87px;
+}
+
+
+.section-wrap{
+	margin: 96px auto 0;
+	padding: 10px;
+	width: 850px;
+}
+
+#senpai01 .section-wrap{ background: url('/recruit/work/senpai/img/senpai01/section-bg.png'); }
+#senpai02 .section-wrap{ background: url('/recruit/work/senpai/img/senpai02/section-bg.png'); }
+#senpai03 .section-wrap{ background: url('/recruit/work/senpai/img/senpai03/section-bg.png'); }
+#senpai04 .section-wrap{ background: url('/recruit/work/senpai/img/senpai04/section-bg.png'); }
+#senpai05 .section-wrap{ background: url('/recruit/work/senpai/img/senpai05/section-bg.png'); }
+#senpai06 .section-wrap{ background: url('/recruit/work/senpai/img/senpai06/section-bg.png'); }
+#senpai07 .section-wrap{ background: url('/recruit/work/senpai/img/senpai07/section-bg.png'); }
+
+.section-inner{
+	background-color: #fff;
+	padding: 73px 90px;
+}
+
+.section-wrap .section{
+	position: relative;
+}
+
+.section-wrap .section h2{
+	position: relative;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0 10px 0 30px;
+	border: 5px solid #5e5e5e;
+	top: 13px;
+	left: -128px;
+	background-color: #fff;
+	width: 474px;
+	height: 150px;
+}
+
+.section-wrap .section h2 span{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.section-wrap .section .photo{
+	position: absolute;
+	right: -168px;
+	top: -116px;
+}
+
+.section-wrap .section p{
+	padding: 40px 0 20px;
+}
+
+.section-wrap .section#sec01 p{
+	padding-bottom: 170px;
+}
+
+.career{
+	position: relative;
+	width: 850px;
+	margin: 0 auto;
+	background-color: #999999;
+	padding: 50px 90px 30px;
+	color: #fff;
+	line-height: 2em;
+}
+
+.career h2{
+	position: absolute;
+	top: -42px;
+	left: -42px;
+	padding: 32px 84px;
+	line-height: 100%;
+	font-size: 18px;
+}
+
+.career h2.black{
+	color: #333;
+}
+
+#senpai01 .career h2{ background-color: #79bbff; }
+#senpai02 .career h2{ background-color: #f98dca; }
+#senpai03 .career h2{ background-color: #cee410; }
+#senpai04 .career h2{ background-color: #f4b176; }
+#senpai05 .career h2{ background-color: #faef47; }
+#senpai06 .career h2{ background-color: #72ccc2; }
+#senpai07 .career h2{ background-color: #f5bd5b; }
+
+.career li span{
+	display: table-cell;
+	width: 113px;
+	vertical-align: top;
+}
+
+.career li p{
+	display: table-cell;
+	vertical-align: top;
+}
+
+/* OTHER 
+--------------------------------*/
+#other{
+	background-color: #fff;
+	margin-top: 45px;
+}
+
+#other h2{
+	text-align: center;
+	position: relative;
+	height: 14px;
+	background: url('/recruit/work/senpai/img/other-line.png');
+}
+
+#other h2 img{
+	position: absolute;
+	top: -26px;
+	left: 50%;
+	margin-left: -172px;
+}
+
+#other #otherboxs{
+	width: 1000px;
+	margin: 72px auto 0;
+	padding-bottom: 72px;
+}
+
+#other #otherboxs .box{
+	width: 230px;
+	float: left;
+	margin: 0 10px 36px;
+	color: #333;
+}
+
+#other #otherboxs .box:hover{
+	text-decoration: none;
+	color: #555;
+}
+
+#other #otherboxs .box:hover img{
+	filter: alpha(opacity=75);
+	-moz-opacity:0.75;
+	opacity:0.75;
+}
+
+
+#other #otherboxs .number{
+	text-align: center;
+}
+
+#other #otherboxs .box-inner{
+	padding: 6px 6px 12px;
+}
+
+#other #otherboxs #box01 .box-inner{ background-color: #79bbff; }
+#other #otherboxs #box02 .box-inner{ background-color: #f98dca; }
+#other #otherboxs #box03 .box-inner{ background-color: #cee410; }
+#other #otherboxs #box04 .box-inner{ background-color: #f4b176; }
+#other #otherboxs #box05 .box-inner{ background-color: #faef47; }
+#other #otherboxs #box06 .box-inner{ background-color: #72ccc2; }
+#other #otherboxs #box07 .box-inner{ background-color: #f5bd5b; }
+
+#other #otherboxs .box-inner .name{
+	font-size: 19px;
+	font-weight: bold;
+	padding: 0 15px;
+}
+
+#other #otherboxs .box-inner .prof{
+	font-size: 13px;
+	padding: 0 15px;
+}
+
+
+
+/*--------------------------------------
+Smartphone 
+----------------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+#senpai-top #lead{
+	border: 5px solid #dd4031;
+	background-color: #f0f0f0;
+	padding: 10px;
+	width: 100%;
+	margin: 20px auto;
+}
+
+#senpai-top #lead h2{
+	display: block;
+	width: 100%;
+	border-right: none;
+	border-bottom: 1px solid #dd4031;
+}
+
+#senpai-top #lead p{
+	display: block;
+	padding: 10px;
+	font-size: 1rem;
+}
+
+#senpai-top #other{
+	margin-top: 0;
+}
+
+#senpai-top #other #otherboxs{
+	margin-top: 0;
+}
+
+#senpai-top #other #otherboxs .box-inner img{
+	width: 100%;
+}
+
+#senpai01 #wrapper,
+#senpai02 #wrapper,
+#senpai03 #wrapper,
+#senpai04 #wrapper,
+#senpai05 #wrapper,
+#senpai06 #wrapper,
+#senpai07 #wrapper{ background: none; }
+
+#visual{
+	height: auto;
+	min-width: inherit;
+    line-height: 0;
+}
+
+#visual .inner{
+	padding: 0;
+}
+
+#visual .visual-img{
+	position: static;
+	margin-left: 0;
+	max-width: 100%;
+}
+
+#visual .lead-wrap{
+	position: static;
+	width: 100%;
+	padding: 0;
+    line-height: 130%;
+}
+
+#senpai05 #visual .lead-wrap,
+#senpai06 #visual .lead-wrap,
+#senpai07 #visual .lead-wrap{
+	width: 100%;
+}
+
+#visual .lead-wrap .number{
+	right: 10px;
+	top: -70px;
+}
+
+#visual .lead-wrap .lead{
+	display: block;
+	padding: 20px;
+	line-height: 180%;
+	height: auto;
+}
+
+#visual .lead-wrap .lead .copy{
+	display: block;
+	white-space: inherit;
+	text-indent: 0;
+	overflow: visible;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+#visual .lead-wrap .lead .copy span{
+	line-height: 130%;
+}
+
+#visual .lead-wrap .lead .copy br{
+	display: none; 
+}
+
+#senpai01 #visual .lead-wrap .lead .copy,
+#senpai02 #visual .lead-wrap .lead .copy,
+#senpai03 #visual .lead-wrap .lead .copy,
+#senpai04 #visual .lead-wrap .lead .copy,
+#senpai05 #visual .lead-wrap .lead .copy,
+#senpai06 #visual .lead-wrap .lead .copy,
+#senpai07 #visual .lead-wrap .lead .copy
+{
+	background: none; 
+	height: auto;
+}
+
+
+#visual .lead-wrap .profile{
+	padding: 20px;
+}
+
+#visual .lead-wrap .profile .name{
+	float: none;
+	display: block;
+	font-size: 1.2rem;
+	line-height: 150%;
+}
+
+#visual .lead-wrap .profile .prof{
+	float: none;
+	display: block;
+	font-size: 0.8rem;
+	font-weight: normal;
+}
+
+#senpai01 #visual .lead-wrap .profile .prof,
+#senpai02 #visual .lead-wrap .profile .prof,
+#senpai03 #visual .lead-wrap .profile .prof,
+#senpai04 #visual .lead-wrap .profile .prof,
+#senpai05 #visual .lead-wrap .profile .prof,
+#senpai06 #visual .lead-wrap .profile .prof,
+#senpai07 #visual .lead-wrap .profile .prof{
+	padding-left: 0;
+}
+
+.section-wrap{
+	margin: 0;
+	width: 100%;
+}
+
+.section-wrap .section .photo{
+	text-align: center;
+	position: static;
+	margin-bottom: 10px;
+}
+
+.section-wrap .section h2{
+	position: static;
+	padding: 0px 0 10px 0;
+	font-size: 1.2rem;
+	font-weight: bold;
+	line-height: 130%;
+	white-space: inherit;
+	text-indent: 0;
+	overflow: visible;
+	border: none;
+	border-bottom: 2px solid #5e5e5e;
+	width: 100%;
+	height: auto;
+}
+
+#senpai01 .section-wrap .section#sec01 h2,
+#senpai01 .section-wrap .section#sec02 h2
+{
+	background: none;
+	width: 100%;
+	height: auto;
+}
+
+.section-wrap .section h2 br{
+	display: none;
+}
+
+.section-inner{
+	padding: 10px;
+}
+
+.section-wrap .section p{
+	padding: 20px 0;
+}
+
+.section-wrap .section#sec01 p{
+	padding-bottom: 20px;
+}
+
+.career{
+	width: 100%;
+	padding: 0;
+}
+
+.career h2{
+	position: static;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.career li{
+	padding: 0 10px 10px;
+	font-size: 0.9rem;
+	line-height: 150%;
+}
+
+.career li span{
+	display: block;
+}
+
+.career li p{
+	display: block;
+}
+
+/* OTHER 
+--------------------------------*/
+
+#other h2 img{
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	top: -26px;
+	left: 0;
+}
+
+#other #otherboxs{
+	width: 100%;
+	padding-bottom: 0px;
+}
+
+#other #otherboxs .box{
+	width: 48%;
+	margin: 0 1% 20px;
+	text-align: center;
+}
+
+#other #otherboxs .box .name,
+#other #otherboxs .box .prof{
+	text-align: left;
+	padding: 0 10px;
+}
+
+}
+

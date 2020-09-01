@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	font-size: 62.5%;
+	
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	
+}
+
+h1, h2, h3 {
+	line-height: 1.5	
+}
+
+h1 {
+	font-size: 2.4rem;	
+}
+
+h2 {
+	font-size: 2.0rem;	
+}
+
+h3 {
+	font-size: 1.8rem;	
+}
+
+p, .faq {
+	line-height: 1.5;	
+	font-size: 1.4rem;
+}
+
+p {
+	margin-top: 0;
+}
+
+
+.btn {
+	display: block;
+	margin: .5rem 0;
+	padding: 1.5rem;
+	border: 1px solid #999;
+	border-radius: 6px;
+	background-color: #fafafa;
+	background: linear-gradient( to bottom, #fff, #f6f6f6 );
+	transition: all .2s ease;
+}
+
+.btn:link,
+.btn:visited,
+.btn:active {
+	color: currentColor;
+}
+
+.btn:hover {
+	color: #fff;
+	background: #5cb85c;
+}
+
+.btn .glyphicon {
+	display: inline-block;
+	margin-right: .5rem;
+	padding: .5rem;
+	border: 1px solid #999;
+	border-radius: 50%;
+	font-size: 10px;
+	color: #999;
+	
+	transform: scale(.8);
+}
+
+.btn:hover .glyphicon {
+	border-color: #fff;
+	color: #fff;
+	
+}
+
+.draw-line {
+	background: linear-gradient(transparent 70%, #f2dede 0%);
+}
+
+h1 {
+	margin-bottom: 3.0rem;
+	padding-bottom: 1.0rem;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+
+.page-header {
+	margin-top: 20px;
+	border-bottom: none;
+}
+
+
+.logos {
+	list-style: none;
+	margin: 0 0 1.0rem 0;
+	padding: 0;
+}
+
+.logos li {
+	float: left;
+	width: 45px;
+	height: 45px;
+}
+
+.logos li:first-child {
+	margin-right: 4px;
+}
+
+.logos li img {
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 767px) {
+
+	.logos {
+		width: 94px;
+		margin: 0 auto 1.0rem;
+		padding: 0;
+	}
+	.logos:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+
+@media (min-width: 768px) {
+
+	.logos {
+		float: left;
+		margin: 0 1.0rem 0 0;
+		padding: 0;
+	}
+	
+	.logos li {
+		float: left;
+		width: 45px;
+		height: 45px;
+	}
+	
+	.logos li:first-child {
+		margin-right: 5px;
+	}
+	
+}
+
+@media (max-width: 767px) {
+
+}
+@media (max-width: 767px) and (orientation: landscape) {
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+@media (min-width: 1200px) {
+
+
+}

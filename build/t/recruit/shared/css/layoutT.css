@@ -1,0 +1,417 @@
+@charset "utf-8";
+/* CSS Document */
+
+#logoCopy {
+	z-index: 5100;
+	position: absolute;
+	top: 245px;
+	left: 0;
+	width: 376px;
+	height: 70px;
+	margin: 0;
+	padding: 0;
+}
+	
+#w {
+	position: relative;
+	width: 955px;
+	margin: 0 auto 7px auto;
+}
+
+#v {
+	margin: 0;
+}
+
+/* インターンシップ */
+#ii {
+	z-index: 5000;
+	position: absolute;
+	right: 7px;
+	bottom: 7px;	
+	
+	margin: 0;
+	padding: 0;
+}
+
+#v ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#v ul li {
+	margin: 0;
+	padding: 0;
+}
+
+#v ul li img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+#entry {
+	box-sizing: border-box;
+	float: right;
+	margin: 0 0 7px 0;
+	padding: 7px 0 7px 9px;
+	background: #f0f0f0;
+}
+
+#entry h2 {
+	margin: 0 0 7px 0;
+	padding: 0;
+	font-size: 13px;
+}
+
+#entry p {
+	box-sizing: border-box;
+	float: left;
+	width: 33.33%;
+	margin: 0;
+	padding: 0 7px 0 0;
+}
+
+#entry p a {
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	border: 2px solid #ccc;	
+}
+
+#entry p a:hover {
+	border: 2px solid #ee0000;	
+}
+
+#entry p img {
+	vertical-align: middle;
+	width: 100%;
+	height: auto;	
+}
+
+
+
+.btnTopEntry {
+
+}
+
+#titleNews {
+	line-height: 1.0;
+	margin: 0 0 7px 0;
+	padding: 10px;
+	color: #333;
+	font-size: 14px;
+	background: #ececec;
+	box-shadow: 0 1px 2px #e8e7e7;
+}
+
+#newsText {
+	float: left;
+}
+
+
+#newsToggle {
+	cursor: pointer;
+	float: right;
+	width: 5.5em;
+	padding: 2px;
+	text-align: center;
+	font-size: 12px;
+	border-left: 1px solid #ccc;
+	box-shadow: 1px 0 0 #fff inset;
+}
+
+
+
+/* お知らせ */
+#news {
+	/*overflow: auto;*/
+	width: 474px;
+	/*height: 160px;*/
+}
+
+
+#news .row {
+	min-height: 175px;
+	margin-bottom: 7px;
+	padding-bottom: 7px;
+	border-bottom: 1px dotted #f0f0f0;
+}
+
+#news .row p {
+	margin: 0 0 7px 0;	
+}
+
+.listDate {
+	clear: both;
+	width: 452px;
+	border-bottom: 1px solid #efeeee;
+	margin: 0 0 4px 0;
+	padding: 4px 0 7px 0;
+}
+
+.listDate dt {
+	float: left;
+	width: 90px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+.listDate dd {
+	float: left;
+	width: 355px;
+	margin: 0;
+	padding: 0;
+}
+
+#movie {
+	width: 232px;
+	height: 150px;
+}
+
+.box {
+	display: inline;
+	float: left;
+	width: 474px;
+	margin: 0 7px 7px 0;
+}
+
+.box.last {
+	margin-right: 0;
+}
+
+.box .box {
+	width: 232px;	
+}
+
+#FB {
+	float: right;
+}
+
+#FB h2 {
+	line-height: 1.0;
+	margin: 0 0 7px 0;
+	padding: 10px;
+	font-size: 14px;
+	color: #fff;
+	background: #3b5998;	
+	box-shadow: 0 1px 2px #e8e7e7;
+}
+
+#FB-ST img {
+	display: inline;
+	float: left;
+	margin: 0 7px 0 0;
+}
+
+#FB-Feed {
+	clear: both;
+	overflow: auto;
+	height: 440px;
+	margin: 0;
+	padding: 0;
+}
+
+#FB-Feed ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 7px 0 0;
+}
+
+#FB-Feed ul li {
+	clear: both;
+	margin: 0;
+	padding: 7px 0;
+	border-bottom: 1px dotted #f0f0f0;
+}
+
+#FB-Feed ul li img {
+	display: inline;
+	float: left;
+	margin: 0 7px 7px 0;
+	padding: 0;
+	border: 1px solid #ccc;
+	
+	max-width: 225px;
+	height: auto;
+}
+/*
+#FB-Feed ul li img {
+	width: 225px\9;
+}
+
+#FB-Feed ul li img {
+	/width: 225px;
+}
+*/
+
+#FB-Foot {
+	clear: both;
+	line-height: 1.0;
+	margin: 14px 0 21px;
+	font-size: 12px;
+}
+
+
+/*@media only screen and (max-device-width: 1023px) {*/
+/*@media only screen and (max-width: 1023px) {*/
+@media only screen and (min-device-width: 240px) and (max-device-width: 667px), only screen and (min-width: 240px) and (max-width: 667px) {
+	/*
+	#util {
+		display: none;	
+	}
+	*/
+	
+	#entry {
+		padding: 2px;	
+	}
+	
+	#entry p {
+		padding: 2px;
+	}
+	
+	#w {
+		width: 100%;
+		/*margin-bottom: 130px;*/
+	}
+	
+	
+	
+	#ii {
+		position: static;
+		margin: 7px 0;
+		width: 100%;
+		height: auto;
+	}
+
+	
+	#ii img {
+		display: block;
+		width: 300px;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.btnTopEntry {
+		display: block;
+		margin: 0 0 7px;
+	}
+
+	
+	.btnTopEntry .btnEntry {
+		font-size: 13px;	
+	}
+	
+	/* お知らせ */
+	#news {
+		box-sizing: border-box;
+		width: 100%;
+		
+		padding: 0 7px;
+	}
+	
+	#news .row {
+		min-height: inherit;
+	}
+	
+	.wbox {
+		clear: both;
+	}
+	
+	.box {
+		width: 100%;
+		box-sizing: border-box;
+	}
+	
+	.box img {
+		width: 100%;
+		height: auto;
+	}
+	
+	.box .box {
+		float: left;
+		width: 50%;
+		margin: 0;
+		padding: 5px;
+	}
+	
+	.box .box.last {
+	}
+	
+	.box .box img {
+		width: 100%;
+		height: auto;
+	}
+	
+	/*
+	#FB {
+		display: none;	
+	}
+	*/
+	
+	
+	#FB-Feed {
+		clear: both;
+		overflow: auto;
+		height: auto;
+		margin: 0;
+		padding: 5px;
+		background: url(/recruit/images/bg_fb.png) repeat-x bottom;
+	}
+			
+	#FB-Feed ul {
+		padding: 0;
+	}
+	
+	/* FBのアイコン */
+	#FB-ST img {
+		width: 75px;
+		height: 75px;
+	}
+	#FB-Feed img {
+		width: 100px;
+		height: auto;
+	}
+	
+	#FB-More {
+		/*float: right;*/
+		
+		margin: 0 0 15px;
+		padding: 5px;
+		font-size: 12px;
+		text-align: center;
+		color: #fff;
+		background: #3b5998;
+	}
+	
+}
+	
+
+
+
+
+
+
+
+
+/* clearfix
+----------------------------------------------------------------------------------------------------*/
+#gNav, .columnSet, .listDate, #titleNews, #FB-Feed ul li, #FB-More {
+	zoom: 1;/*for IE 5.5-7*/
+}
+
+#gNav:after, .columnSet:after, .listDate:after, #titleNews:after, #FB-Feed ul li:after, #FB-More:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+

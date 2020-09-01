@@ -1,0 +1,672 @@
+/* MESSAGE
+-----------------------*/
+
+#message #contents-wrap{
+	padding-bottom: 50px;
+}
+
+#message #contents-wrap h1{
+	margin-bottom: 70px;
+}
+
+#message #visual {
+	position: relative;
+	line-height: 0;
+}
+
+#message #visual h2{
+	position: absolute;
+	right: 0;
+	top: 196px;
+	font-size: 1.3rem;
+	font-weight: bold;
+	background: url('/recruit/about/img/message/bar.png') repeat-y right 0;
+	padding: 18px 20px 18px 0;
+	line-height: 150%;
+}
+
+#message #visual .sign{
+	position: absolute;
+	right: 145px;
+	bottom: 72px;
+}
+
+
+#message #message-body{
+	background-color: #f7f5f2;
+	padding: 50px 35px 50px 35px;
+}
+
+#message #message-body .left{
+	float: left;
+	width: 391px;
+	font-size: 1.4rem;
+	font-weight: bold;
+	line-height: 180%;
+	color: #000;
+}
+
+#message #message-body .right{
+	float: right;
+	width: 530px;
+}
+
+
+/*--------------------------------------
+Smartphone 
+----------------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+#message #contents-wrap h1{
+	margin-bottom: 20px;
+}
+
+#message #visual h2{
+	position: static;
+	padding-left: 20px;
+	background: none;
+}
+
+#message #message-body{
+	padding: 10px;
+}
+
+#message #message-body .left{
+	float: none;
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 1.1rem;
+}
+
+#message #message-body .left .title-name{
+	padding: 10px;
+}
+
+#message #message-body .right{
+	float: none;
+	width: 100%;
+}
+
+}
+
+
+/* TIME TRAVEL
+-----------------------*/
+
+#timetravel #contents-wrap{
+	padding-bottom: 50px;
+	background-color: #f0eae4;
+}
+
+#timetravel #title{
+	background: #fff url('/recruit/about/img/timetravel/title-bg.jpg') no-repeat center center;
+	height: 545px;
+	border-top: 5px solid #dd4031;
+	border-bottom: 5px solid #dd4031;
+	padding-top: 48px;
+}
+
+#timetravel #title p{
+	width: 550px;
+	line-height: 180%;
+}
+
+#timetravel #title img{
+	margin-bottom: 40px;
+}
+
+#timetravel #title a{
+	display: block;
+	width: 226px;
+	height: 70px;
+	margin: 27px auto 0;
+}
+
+#timetravel #contents-body{
+	padding-top: 70px;
+	background: url('/recruit/about/img/timetravel/bg-center.png') repeat-y center center;
+}
+
+#timetravel #scroll{
+	cursor: pointer;
+	display: none;
+	position: absolute;
+	width: 43px;
+	height: 82px;
+	left: 50%;
+	margin-left: -22px;
+	top: 20px;
+	z-index: 5000;
+}
+
+
+#timetravel .box{
+	position: relative;
+	margin-bottom: 50px;
+	width: 100%;
+	min-height: 154px;
+}
+
+#timetravel .box#p03{ margin-bottom: 0; }
+#timetravel .box#p04{ margin-bottom: 0; }
+#timetravel .box#p06{ margin-bottom: 0; }
+#timetravel .box#p07{ margin-bottom: 0; }
+#timetravel .box#p15{ margin-bottom: 0; }
+
+#timetravel .last-box{
+	background: url('/recruit/about/img/timetravel/bg-center-bottom.png') no-repeat center bottom;
+	height: 100px;
+}
+
+#timetravel .box .line{
+	height: 14px;
+	width: 0; /*max:436*/
+	position: absolute;
+	top: 50%;
+	left: 122px;
+	margin-top: -7px;
+	background: url('/recruit/about/img/timetravel/bg-line.png') no-repeat left center;
+}
+
+
+#timetravel .box.notext .line{
+	background: url('/recruit/about/img/timetravel/bg-line2.png') no-repeat left center;
+}
+
+#timetravel .box .year{
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	margin-top: 0px;
+	margin-left: 76px;
+	/*
+	width: 152px;
+	height: 152px;
+	*/
+	top: 76px;
+	left: 76px;
+	width: 0;
+	height: 0;
+	text-align: center;
+	line-height: 152px;
+/*	padding-top: 61px; */
+/*	background: url('/recruit/about/img/timetravel/circle.png') no-repeat center center; */
+	border: 4px solid #dd4031;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+#timetravel .box .year img{
+	display: none;
+}
+
+
+#timetravel .box#p01 .year{ left: 0px; }
+#timetravel .box#p02 .year{ left: 40px; }
+#timetravel .box#p03 .year{ left: 0px; }
+#timetravel .box#p04 .year{ left: 33px; }
+#timetravel .box#p05 .year{ left: 32px; }
+#timetravel .box#p06 .year{ left: 0px; }
+#timetravel .box#p07 .year{ left: 32px; }
+#timetravel .box#p08 .year{ left: 32px; }
+#timetravel .box#p09 .year{ left: 0px; }
+#timetravel .box#p10 .year{ left: 0px; }
+#timetravel .box#p11 .year{ left: 18px; }
+#timetravel .box#p12 .year{ left: 0px; }
+#timetravel .box#p13 .year{ left: 32px; }
+#timetravel .box#p14 .year{ left: 0px; }
+#timetravel .box#p15 .year{ left: 18px; }
+
+
+#timetravel .box .title{
+	display: none;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin-left: -340px;
+	text-align: right;
+	width: 320px;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	white-space: nowrap;
+	text-indent: 100%;
+	overflow: hidden;
+	background-position: right 0;
+}
+
+#timetravel .box#p01 .title{ bottom: 108px; height: 160px; background-image: url('/recruit/about/img/timetravel/p01.png'); }
+#timetravel .box#p02 .title{ bottom: 88px;  height: 163px; background-image: url('/recruit/about/img/timetravel/p02.png'); }
+#timetravel .box#p03 .title{ bottom: 147px; height: 163px; background-image: url('/recruit/about/img/timetravel/p03.png'); }
+#timetravel .box#p04 .title{ bottom: 78px;  height: 113px; background-image: url('/recruit/about/img/timetravel/p04.png'); }
+#timetravel .box#p05 .title{ bottom: 135px; height: 143px; background-image: url('/recruit/about/img/timetravel/p05.png'); }
+#timetravel .box#p06 .title{ bottom: 136px; height: 163px; background-image: url('/recruit/about/img/timetravel/p06.png'); }
+#timetravel .box#p07 .title{ bottom: 78px;  height: 113px; background-image: url('/recruit/about/img/timetravel/p07.png'); }
+#timetravel .box#p08 .title{ bottom: 112px; height: 163px; background-image: url('/recruit/about/img/timetravel/p08.png'); }
+#timetravel .box#p09 .title{ bottom: 85px;  height: 113px; background-image: url('/recruit/about/img/timetravel/p09.png'); }
+#timetravel .box#p10 .title{ bottom: 112px; height: 163px; background-image: url('/recruit/about/img/timetravel/p10.png'); }
+#timetravel .box#p11 .title{ bottom: 135px;  height: 113px; background-image: url('/recruit/about/img/timetravel/p11.png'); }
+#timetravel .box#p12 .title{ bottom: 110px;  height: 143px; background-image: url('/recruit/about/img/timetravel/p12.png'); }
+#timetravel .box#p13 .title{ bottom: 123px; height: 153px; background-image: url('/recruit/about/img/timetravel/p13.png'); }
+#timetravel .box#p14 .title{ bottom: 160px; height: 172px; background-image: url('/recruit/about/img/timetravel/p14.png'); }
+#timetravel .box#p15 .title{ bottom: 135px;  height: 127px; background-image: url('/recruit/about/img/timetravel/p15.png'); }
+
+
+#timetravel .box .text{
+	opacity: 0;
+	float: right;
+	margin-right: 0;
+	width: 434px;
+	background: url('/recruit/about/img/timetravel/box-bg.png');
+}
+#timetravel .box .text div{
+	position: relative;
+	left: -10px;
+	top: -10px;
+	background-color: #f6f6f6;
+	padding: 22px;
+}
+
+
+#timetravel .box .text .img-right{
+	float: right;
+	margin-left: 15px;
+}
+
+#timetravel .box#p01 .text .img-right{
+	margin-left: 26px;
+}
+
+
+#timetravel .box .text .img-left{
+	float: left;
+	margin-right: 15px;
+}
+
+#timetravel .box .text .up{
+	margin-top: -50px;
+}
+
+#timetravel .box p:after{
+	content: "";
+	position: relative;
+	background: url('/recruit/about/img/timetravel/box-bg.png');
+	top: 20px;
+	left: 20px;
+	
+}
+
+/*--------------------------------------
+Smartphone 
+----------------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+#timetravel #title{
+	background-image: none;
+	height: auto;
+	padding: 20px 0;
+}
+
+#timetravel #title img{
+	margin-bottom: 20px;
+}
+
+#timetravel #title p{
+	width: 100%;
+	line-height: 130%;
+	margin-bottom: 20px;
+}
+
+#timetravel #contents-body{
+	padding-top: 20px;
+}
+
+#timetravel #scroll{
+	display: none !important;
+}
+
+#timetravel .box{
+	text-align: center;
+	margin: 20px 0;
+	min-height: inherit;
+}
+
+
+#timetravel .box .year{
+	opacity: 1;
+	position: static;
+	width: 100%;
+	height: 22px;
+	line-height: 100px;
+	margin: 0;
+	border: none;
+	background: none;
+	line-height: 100%;
+}
+
+#timetravel .box .year img{
+	opacity: 0;
+	display: inline;
+	margin-right: 70px;
+}
+
+#timetravel .box#p01 .title, #timetravel .box#p02 .title, #timetravel .box#p03 .title, #timetravel .box#p04 .title, #timetravel .box#p05 .title, 
+#timetravel .box#p06 .title, #timetravel .box#p07 .title, #timetravel .box#p08 .title, #timetravel .box#p09 .title, #timetravel .box#p10 .title, 
+#timetravel .box#p11 .title, #timetravel .box#p12 .title, #timetravel .box#p13 .title, #timetravel .box#p14 .title, #timetravel .box#p15 .title{
+	bottom:0; height:auto; background-image: none;
+}
+
+#timetravel .box .title{
+	opacity: 0;
+	display: block;
+	position: static;
+	margin-left: 0;
+	width: 100%;
+	background: none;
+	height: auto;
+	white-space: inherit;
+	text-indent: 0;
+	overflow: inherit;
+	text-align: center;
+}
+
+#timetravel .box .title img{
+	margin-right: 2px;
+}
+
+#timetravel .box .text{
+	opacity: 0;
+	float: none;
+	width: 100%;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+#timetravel .box.up .text{
+}
+
+#timetravel .box .text p{
+	text-align: left;
+}
+
+#timetravel .box .text .up{
+	margin-top: -30px;
+}
+
+}
+
+/* KEYWORD 8
+-----------------------*/
+
+#keyword #contents-wrap{
+	padding-bottom: 50px;
+}
+
+#keyword #contents-wrap .inner{
+}
+
+#keyword #contents-wrap h1{
+	margin-bottom: 30px;
+}
+
+#keyword #plates{
+	position: relative;
+	width: 1018px;
+	height: 970px;
+	margin: 0 auto;
+}
+
+#keyword #plates li{
+	position: absolute;
+	line-height: 0;
+}
+
+#keyword #plates li#kt{ top: 4px; left: 4px; }
+#keyword #plates li#k1{ top: 0px; left: 508px; }
+#keyword #plates li#k2{ top: 0px; left: 762px; }
+#keyword #plates li#k3{ top: 236px; left: 0px; }
+#keyword #plates li#k4{ top: 236px; left: 508px; }
+#keyword #plates li#k5{ top: 472px; left: 255px; }
+#keyword #plates li#k6{ top: 472px; left: 0px; }
+#keyword #plates li#k7{ top: 708px; left: 255px; }
+#keyword #plates li#k8{ top: 472px; left: 762px; }
+
+
+.mfp-content{
+	max-width: 862px;
+	border: 5px solid #dd4031;
+	padding: 40px 60px;
+	background-color: #fff;
+	position: relative;
+}
+
+.mfp-arrow-left,
+.mfp-arrow-right{
+	display: none;
+}
+
+.mfp-arrow-prev{
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 50%;
+	margin-top: -11px;
+	width: 28px;
+	height: 40px;
+	background: url('/recruit/about/img/keyword/prev.png') no-repeat center center;
+}
+
+.mfp-arrow-next{
+	position: absolute;
+	display: block;
+	right: 0;
+	top: 50%;
+	margin-top: -11px;
+	width: 28px;
+	height: 40px;
+	background: url('/recruit/about/img/keyword/next.png') no-repeat center center;
+}
+
+.mfp-content .popup-modal-dismiss{
+	position: fixed;
+	top: 10px;
+	right: 28px;
+	
+}
+
+.mfp-content .upper .left{
+	float: left;
+	width: 358px;
+}
+
+.mfp-content .upper .right{
+	float: right;
+	width: 374px;
+}
+
+.mfp-content .upper{
+	padding-bottom: 26px;
+	margin-bottom: 26px;
+	border-bottom: 1px solid #d0d0d0;
+}
+
+.mfp-content .upper .title{
+	margin-bottom: 16px;
+	line-height: 0;
+}
+
+.mfp-content .upper .copy{
+	line-height: 0;
+}
+
+#keyword7 .bottom{
+	letter-spacing: -0.1px;
+}
+
+
+/*--------------------------------------
+Smartphone 
+----------------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+#keyword #plates{
+	width: 100%;
+	height: auto;
+}
+
+#keyword #plates li{
+	position: static;
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+
+#keyword #plates li.wide{
+	width: 100%;
+}
+
+#keyword #plates li img{
+	width: 100%;
+}
+
+.mfp-content{
+	width: 100%;
+	padding: 20px;
+}
+
+.mfp-content .upper .left,
+.mfp-content .upper .right{
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+
+#keyword #plates li#kt{ padding: 6px; }
+#keyword #plates li#k2{ float: right; }
+#keyword #plates li#k4{ float: right; }
+
+.mfp-content .upper .copy{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.mfp-content .popup-modal-dismiss{
+	top: 5px;
+	right: 6px;
+}
+
+img.sp{
+	display: inline;
+}
+
+}
+
+
+
+/* COMPANY DATA
+-----------------------*/
+
+#data #contents-wrap{
+	padding-bottom: 50px;
+}
+
+#data #contents-wrap h1{
+	margin-bottom: 50px;
+}
+
+#data #contents-wrap .left{
+	float: left;
+	width: 483px;
+}
+
+#data #contents-wrap .right{
+	float: right;
+	width: 483px;
+}
+
+#data #contents-wrap .box{
+	background-color: #fbfbf9;
+	margin-bottom: 28px;
+}
+
+#data #contents-wrap h2{
+	position: relative;
+	background-color: #e0d4c7;
+	line-height: 50px;
+	padding: 0 44px;
+	height: 50px;
+	font-weight: bold;
+}
+
+#data #contents-wrap h2:after{
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	background: url('/recruit/recruit/img/qa/h3-line.png');
+}
+
+
+#data #contents-wrap p{
+	padding: 20px 40px;
+}
+
+#data #contents-wrap .group{
+	padding: 20px 40px;
+}
+
+#data #contents-wrap .group ul{
+	padding-left: 30px;
+}
+
+#data #contents-wrap .group ul li{
+	list-style-type: disc;
+}
+
+#data #contents-wrap .inner-left{
+	float: left;
+	width: 50%;
+}
+
+#data #contents-wrap .inner-right{
+	float: right;
+	width: 50%;
+}
+
+
+/*--------------------------------------
+Smartphone 
+----------------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+#data #contents-wrap .left,
+#data #contents-wrap .right,
+#data #contents-wrap .inner-left,
+#data #contents-wrap .inner-right{
+	float: none;
+	width: 100%;
+}
+
+#data #contents-wrap .inner-left p{
+	padding-bottom: 1.5rem;
+}
+#data #contents-wrap .inner-right p{
+	padding-top: 0;
+}
+
+#data #contents-wrap h2{
+	padding: 0 20px;
+}
+
+#data #contents-wrap p{
+	padding: 20px;
+}
+
+
+}
+
