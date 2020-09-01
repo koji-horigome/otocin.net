@@ -65,7 +65,8 @@ p {
 }
 
 .item {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	float: left;
 	margin-bottom: 30px;
 	padding: 1.0rem;
@@ -180,17 +181,27 @@ p {
 }
 
 .draw-line {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(0%, #e7ffe8));
 	background: linear-gradient(transparent 70%, #e7ffe8 0%);
 }
 
 .row.flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-start;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-flow: row wrap;
+	        flex-flow: row wrap;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
 }
 
 .row.flex > .item {
-	flex: 0 0 50%;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 50%;
+	        flex: 0 0 50%;
 }
 
 @media (max-width: 767px) {
@@ -212,19 +223,25 @@ p {
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.row.flex > .item {
-		flex: 0 0 33.33%;
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 33.33%;
+		        flex: 0 0 33.33%;
 	}	
 	
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 	.row.flex > .item {
-		flex: 0 0 16.66%;
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 16.66%;
+		        flex: 0 0 16.66%;
 	}
 	
 }
 @media (min-width: 1200px) {
 	.row.flex > .item {
-		flex: 0 0 16.66%;
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 16.66%;
+		        flex: 0 0 16.66%;
 	}
 
 }

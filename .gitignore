@@ -1,0 +1,9 @@
+.DS_Store
+bk/
+bk_*.*
+bk_*/
+comp/
+differences/
+directions/
+node_modules/
+node_modules/*

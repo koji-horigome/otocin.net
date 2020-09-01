@@ -105,7 +105,7 @@
 
 #contentsArea .btnEntry {
 	background-image: none;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #9f042a), color-stop(0.00, #dd0a3f));
+	background: -webkit-gradient(linear, left top, left bottom, from(#9f042a), to(#73a220));
 	background: linear-gradient(top, #9f042a 0%, #73a220 100%);
 
 }
@@ -168,7 +168,8 @@
 	height: 44px;
 	margin: 0 auto 7px;
 	color: #fff;
-	box-shadow: 0 1px 2px #adaaa9;
+	-webkit-box-shadow: 0 1px 2px #adaaa9;
+	        box-shadow: 0 1px 2px #adaaa9;
 }
 
 #listGNav {
@@ -650,7 +651,8 @@ a:hover, a:active  {
 
 	#util {
 		position: static;
-		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
 		float: none;
 		clear: both;
 		width: 100%;
@@ -664,7 +666,8 @@ a:hover, a:active  {
 	}
 	
 	#util .listUtil > li {
-		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
 		float: none;
 		width: 100%;
 		margin: 0;
@@ -677,7 +680,8 @@ a:hover, a:active  {
 		height: 44px;
 		margin: 0 auto 7px;
 		color: #fff;
-		box-shadow: 0 1px 2px #adaaa9;
+		-webkit-box-shadow: 0 1px 2px #adaaa9;
+		        box-shadow: 0 1px 2px #adaaa9;
 	}
 	
 	#listGNav {
@@ -699,7 +703,8 @@ a:hover, a:active  {
 		left: 0;
 		float: left;
 		width: 100%;
-		box-shadow: 0 1px 3px #333;
+		-webkit-box-shadow: 0 1px 3px #333;
+		        box-shadow: 0 1px 3px #333;
 	}
 	
 	

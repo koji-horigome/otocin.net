@@ -30,7 +30,6 @@
   top: 0;
   padding: 0 8px;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 .mfp-container:before {
@@ -58,14 +57,12 @@
   cursor: progress; }
 
 .mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
-  cursor: -moz-zoom-out;
   cursor: -webkit-zoom-out;
   cursor: zoom-out; }
 
 .mfp-zoom {
   cursor: pointer;
   cursor: -webkit-zoom-in;
-  cursor: -moz-zoom-in;
   cursor: zoom-in; }
 
 .mfp-auto-cursor .mfp-content {
@@ -74,7 +71,8 @@
 .mfp-close, .mfp-arrow, .mfp-preloader, .mfp-counter {
   -webkit-user-select: none;
   -moz-user-select: none;
-  user-select: none; }
+  -ms-user-select: none;
+      user-select: none; }
 
 .mfp-loading.mfp-figure {
   display: none; }
@@ -235,7 +233,8 @@ button::-moz-focus-inner {
     left: 0;
     width: 100%;
     height: 100%;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     background: #000; }
 
 /* Main image in popup */
@@ -246,7 +245,6 @@ img.mfp-img {
   display: block;
   line-height: 0;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 40px 0 40px;
   margin: 0 auto; }
@@ -265,7 +263,8 @@ img.mfp-img {
     width: auto;
     height: auto;
     z-index: -1;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     background: #444; }
   .mfp-figure small {
     color: #BDBDBD;
@@ -319,7 +318,6 @@ img.mfp-img {
     padding: 3px 5px;
     position: fixed;
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box; }
     .mfp-img-mobile .mfp-bottom-bar:empty {
       padding: 0; }
@@ -377,6 +375,7 @@ img.mfp-img {
 .mfp-fade.mfp-bg {
 	opacity: 0;
 	background: #00;
+	-webkit-transition: all .3s;
 	transition: all .3s;
 }
 
@@ -385,6 +384,7 @@ img.mfp-img {
 
 .mfp-fade.mfp-wrap .mfp-content {
 	opacity: 0;
+	-webkit-transition: all .3s;
 	transition: all .3s;
 }
 

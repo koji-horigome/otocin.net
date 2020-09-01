@@ -212,7 +212,8 @@
 /*@media only screen and (max-width: 1023px) {*/
 @media only screen and (min-device-width: 240px) and (max-device-width: 667px), only screen and (min-width: 240px) and (max-width: 667px) {
 	.listTopicPath {
-		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
 		width: 100%;
 		margin: 7px 0 14px 0;
 		padding: 0 5px;
@@ -257,7 +258,8 @@
 	
 	
 	.sideExtraArea {
-		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
 		width: 100%;
 		margin: 0;
 		padding: 5px;
@@ -293,7 +295,8 @@
 		vertical-align: middle;
 		*/
 		float: left;
-		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
 		width: 50%;
 		margin: 0;
 		padding: 5px;

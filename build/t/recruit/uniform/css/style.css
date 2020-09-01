@@ -44,7 +44,9 @@ p {
 	border: 1px solid #999;
 	border-radius: 6px;
 	background-color: #fafafa;
+	background: -webkit-gradient( linear, left top, left bottom, from(#fff), to(#f6f6f6) );
 	background: linear-gradient( to bottom, #fff, #f6f6f6 );
+	-webkit-transition: all .2s ease;
 	transition: all .2s ease;
 }
 
@@ -68,7 +70,9 @@ p {
 	font-size: 10px;
 	color: #999;
 	
-	transform: scale(.8);
+	-webkit-transform: scale(.8);
+	
+	        transform: scale(.8);
 }
 
 .btn:hover .glyphicon {
@@ -78,6 +82,7 @@ p {
 }
 
 .draw-line {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(0%, #f2dede));
 	background: linear-gradient(transparent 70%, #f2dede 0%);
 }
 

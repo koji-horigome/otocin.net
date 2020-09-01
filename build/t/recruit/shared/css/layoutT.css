@@ -56,7 +56,8 @@
 
 
 #entry {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	float: right;
 	margin: 0 0 7px 0;
 	padding: 7px 0 7px 9px;
@@ -70,7 +71,8 @@
 }
 
 #entry p {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	float: left;
 	width: 33.33%;
 	margin: 0;
@@ -78,7 +80,8 @@
 }
 
 #entry p a {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	display: block;
 	width: 100%;
 	border: 2px solid #ccc;	
@@ -107,7 +110,8 @@
 	color: #333;
 	font-size: 14px;
 	background: #ececec;
-	box-shadow: 0 1px 2px #e8e7e7;
+	-webkit-box-shadow: 0 1px 2px #e8e7e7;
+	        box-shadow: 0 1px 2px #e8e7e7;
 }
 
 #newsText {
@@ -123,7 +127,8 @@
 	text-align: center;
 	font-size: 12px;
 	border-left: 1px solid #ccc;
-	box-shadow: 1px 0 0 #fff inset;
+	-webkit-box-shadow: 1px 0 0 #fff inset;
+	        box-shadow: 1px 0 0 #fff inset;
 }
 
 
@@ -202,7 +207,8 @@
 	font-size: 14px;
 	color: #fff;
 	background: #3b5998;	
-	box-shadow: 0 1px 2px #e8e7e7;
+	-webkit-box-shadow: 0 1px 2px #e8e7e7;	
+	        box-shadow: 0 1px 2px #e8e7e7;
 }
 
 #FB-ST img {
@@ -311,7 +317,8 @@
 	
 	/* お知らせ */
 	#news {
-		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
 		width: 100%;
 		
 		padding: 0 7px;
@@ -327,7 +334,8 @@
 	
 	.box {
 		width: 100%;
-		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
 	}
 	
 	.box img {

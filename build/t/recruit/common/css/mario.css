@@ -114,8 +114,6 @@
 
 #special .btn:hover{
 	-webkit-transition: 0.3s;
-	-moz-transition: 0.3s;
-	-o-transition: 0.3s;
 	transition: 0.3s;
 	text-decoration:none;
 	color: #fff;
@@ -398,7 +396,8 @@ Smartphone
 	border-radius: 15px; 
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
-	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.22);
+	        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.22);
 }
 
 .mfp-content .title{
@@ -841,12 +840,8 @@ Smartphone
 	background-color: #fff;
 
 	-webkit-transition : border 500ms ease-out;
-	-moz-transition : border 500ms ease-out;
-	-o-transition : border 500ms ease-out;
 	transition : border 500ms ease-out;
 	-webkit-transition : background 500ms ease-out;
-	-moz-transition : background 500ms ease-out;
-	-o-transition : background 500ms ease-out;
 	transition : background 500ms ease-out;
 }
 
